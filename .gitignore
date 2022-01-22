@@ -1,0 +1,7 @@
+# Python venv
+venv
+
+# Developer
+.idea
+db.sqlite3
+.DS_Store
