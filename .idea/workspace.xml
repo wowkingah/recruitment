@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f08ec0c7-279c-4547-8c18-5d9a5ce0d903" name="Changes" comment="add job detail">
-      <change afterPath="$PROJECT_DIR$/.README_images/6e3112ec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.README_images/767b46e4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.README_images/9212abf8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.README_images/ba7fb251.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.README_images/dc35875d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recruitment/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recruitment/jobs/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment/jobs/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recruitment/jobs/templates/joblist.html" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment/jobs/templates/joblist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recruitment/jobs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment/jobs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recruitment/recruitment/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment/recruitment/settings.py" afterDir="false" />
+    <list default="true" id="f08ec0c7-279c-4547-8c18-5d9a5ce0d903" name="Changes" comment="add interview">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642823840329</updated>
       <workItem from="1642823864050" duration="12886000" />
-      <workItem from="1642851042932" duration="11646000" />
+      <workItem from="1642851042932" duration="11796000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1642850292537</created>
@@ -147,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642854647146</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add interview">
+      <created>1642862864497</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642862864497</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +173,7 @@
     <MESSAGE value="add jobs" />
     <MESSAGE value="init" />
     <MESSAGE value="add job detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="add job detail" />
+    <MESSAGE value="add interview" />
+    <option name="LAST_COMMIT_MESSAGE" value="add interview" />
   </component>
 </project>
