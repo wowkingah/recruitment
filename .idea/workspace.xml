@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f08ec0c7-279c-4547-8c18-5d9a5ce0d903" name="Changes" comment="init" />
+    <list default="true" id="f08ec0c7-279c-4547-8c18-5d9a5ce0d903" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/recruitment/jobs/templates/job.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruitment/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruitment/jobs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment/jobs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruitment/jobs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment/jobs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruitment/jobs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment/jobs/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +23,11 @@
   </component>
   <component name="Git.Settings">
     <branch-grouping />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Wowking &lt;wowkingah@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
@@ -26,15 +38,19 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="242LfBmLjgYjlcHnXFMZRhxCCQz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642823840329</updated>
       <workItem from="1642823864050" duration="12886000" />
-      <workItem from="1642851042932" duration="881000" />
+      <workItem from="1642851042932" duration="3490000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1642850292537</created>
@@ -93,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642851916576</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="init">
+      <created>1642852172343</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642852172343</updated>
+    </task>
+    <task id="LOCAL-00008" summary="init">
+      <created>1642852193815</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1642852193815</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +150,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="add jobs" />
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
