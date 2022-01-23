@@ -41,6 +41,8 @@ class Candidate(models.Model):
     # 第一轮面试记录
     first_score = models.DecimalField(decimal_places=1, null=True, max_digits=2, blank=True, verbose_name='初试分')
     first_learning_ability = models.DecimalField(decimal_places=1, null=True, max_digits=2, blank=True,
+                                                 verbose_name='学习能力得分')
+    first_professional_competency = models.DecimalField(decimal_places=1, null=True, max_digits=2, blank=True,
                                                  verbose_name='专业能力得分')
     first_advantage = models.TextField(max_length=1024, blank=True, verbose_name='优势')
     first_disadvantage = models.TextField(max_length=1024, blank=True, verbose_name='顾虑和不足')
@@ -66,7 +68,7 @@ class Candidate(models.Model):
     second_disadvantage = models.TextField(max_length=1024, blank=True, verbose_name='顾虑和不足')
     second_result = models.CharField(max_length=256, choices=INTERVIEW_RESULT_TYPE, blank=True, verbose_name='专业复试结果')
     second_recommend_position = models.CharField(max_length=256, blank=True, verbose_name='建议方向或推荐部门')
-    second_interviewer = models.CharField(max_length=256, blank=True, verbose_name='面试官')
+    second_interviewer = models.CharField(max_length=256, blank=True, verbose_name='二面面试官')
     second_remark = models.CharField(max_length=135, blank=True, verbose_name='专业复试备注')
 
     # HR终面
