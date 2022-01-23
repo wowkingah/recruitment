@@ -8,10 +8,21 @@ from interview.models import Candidate
 
 class CandidateAdmin(admin.ModelAdmin):
     exclude = ('creator', 'created_date', 'modified_date')
+    # 显示字段
     list_display = (
         "username", "city", "bachelor_school", "first_score", "first_result", "first_interviewer",
         "second_result", "second_interviewer", "hr_score", "hr_result", "last_editor"
     )
+
+    # 筛选条件
+    list_filter = ('city', 'first_result', 'second_result', 'hr_result', 'first_interviewer',
+                   'second_interviewer', 'hr_interviewer')
+
+    # 查询字段
+    search_fields = ('username', 'phone', 'email', 'bachelor_school')
+
+    # 排序字段
+    ordering = ('hr_result', 'second_result', 'first_result')
 
     # 分组显示
     fieldsets = (

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62387a75-4057-4503-bef1-ed6fdba1ccab" name="Changes" comment="add interview">
-      <change afterPath="$PROJECT_DIR$/interview/management/commands/import_candidates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="62387a75-4057-4503-bef1-ed6fdba1ccab" name="Changes" comment="add import for csv.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="4cf6e8af-29b6-4083-b4f6-3e12af0f1249" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="recruitment" type="Python.DjangoServer" factoryName="Django server">
@@ -76,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642928519864</updated>
       <workItem from="1642928524908" duration="1048000" />
-      <workItem from="1642929627415" duration="2609000" />
+      <workItem from="1642929627415" duration="5623000" />
     </task>
     <task id="LOCAL-00001" summary="add interview">
       <created>1642928999598</created>
@@ -106,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642930499074</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add import for csv.">
+      <created>1642932476198</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642932476198</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add interview" />
-    <option name="LAST_COMMIT_MESSAGE" value="add interview" />
+    <MESSAGE value="add import for csv." />
+    <option name="LAST_COMMIT_MESSAGE" value="add import for csv." />
   </component>
 </project>
