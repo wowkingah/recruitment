@@ -4,15 +4,11 @@
 - PyCharm 2021.3.1
 
 # Running
+> user:admin  
+> password:123456
 ```bash
 # project
 $ cd recruitment
-# create super user
-$ python manage.py createsuperuser
-
-# make migrations
-$ python manage.py makemigrations
-$ python manage.py migrate
 
 # running
 $ python manage.py runserver 0.0.0.0:8000
