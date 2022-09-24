@@ -4,15 +4,22 @@
 - PyCharm 2021.3.1
 
 # Running
-> user:admin  
-> password:123456
 ```bash
 # project
 $ cd recruitment
 
+# install
+$ pip3 install -r requirements.txt
+
 # running
 $ python manage.py runserver 0.0.0.0:8000
 ```
+
+> user:admin  
+> password:123456
+
+# 支持 LDAP 账号登录
+[OpenLDAP 安装配置](./openldap.md)
 
 # MVP
 ## 迭代思维与 MVP 产品规划方法（OOPD）
