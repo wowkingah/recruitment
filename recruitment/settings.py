@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_python3_ldap',
     'jobs',
     'interview',
 ]
@@ -124,3 +125,33 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# LDAP
+LDAP_AUTH_URL = "ldap://127.0.0.1:389"
+
+# Initiate TLS on connection.
+LDAP_AUTH_USE_TLS = False
+
+LDAP_AUTH_SEARCH_BASE = "dc=wowking,dc=cc"
+
+# 认证用户的类型，组织的人员
+LDAP_AUTH_OBJECT_CLASS = "inetOrgPerson"
+
+# Django用户字段与LDAP用户字段对应关系
+LDAP_AUTH_USER_FIELDS = {
+    "username": "cn",
+    "first_name": "givenName",
+    "last_name": "sn",
+    "email": "mail",
+}
+
+# LDAP 登录的时候，如果 Django 里已经有相应的账号，则使用 username 作为 LDAP 的登录用户名
+LDAP_AUTH_USER_LOOKUP_FIELDS = ("username",)
+LDAP_AUTH_CLEAN_USER_DATA = "django_python3_ldap.utils.clean_user_data"
+
+# LDAP 连接用户名与密码
+LDAP_AUTH_CONNECTION_USERNAME = "admin"
+LDAP_AUTH_CONNECTION_PASSWORD = "123456"
+
+# 允许使用 LDAP 账号与 Django 账号 2 种方式登录
+AUTHENTICATION_BACKENDS = {"django_python3_ldap.auth.LDAPBackend", "django.contrib.auth.backends.ModelBackend", }
