@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -155,3 +156,51 @@ LDAP_AUTH_CONNECTION_PASSWORD = "123456"
 
 # 允许使用 LDAP 账号与 Django 账号 2 种方式登录
 AUTHENTICATION_BACKENDS = {"django_python3_ldap.auth.LDAPBackend", "django.contrib.auth.backends.ModelBackend", }
+
+# LOGGING
+LOGGING = {
+    "version": 1,
+    # 是否禁用现在已有的其他日志
+    "disable_existing_loggers": False,
+
+    # 日志格式
+    "formatters": {
+        'simple': {
+            'format': '%(asctime)s %(name)-12s %(lineno)d %(levelname)-8s %(message)s',
+        },
+    },
+
+    # 日志处理器
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "simple",
+        },
+        # 定义 ERROR 级别日志，发送到邮件处理器
+        "mail_admin": {
+            "level": "ERROR",
+            "class": "django.utils.log.AdminEmailHandler",
+        },
+        "file": {
+            "class": "logging.FileHandler",
+            "formatter": "simple",
+            "filename": os.path.join(BASE_DIR , 'recruitment.admin.log'),
+        },
+    },
+
+    # 定义系统全局级别默认日志记录器，LOG 中特殊日志记录器
+    "root": {
+        # 同时往控制台与文件输出
+        "handlers": ["console", "file"],
+        "level": "INFO",
+    },
+
+    # 日志记录器
+    "loggers": {
+        # 定义 django_python3_ldap 的日志记录器
+        "django_python3_ldap": {
+            "handlers": ["console"],
+            "level": "DEBUG",
+        },
+    },
+}

@@ -3,10 +3,14 @@ from django.http import HttpResponse
 
 from interview.models import Candidate
 
+import logging
 import csv
 from datetime import datetime
 
 # Register your models here.
+
+# 使用当前运行的脚本名
+logger = logging.getLogger(__name__)
 
 # 定义导出字段列表
 exportable_fields = ('username', 'city', 'phone', 'bachelor_school', 'master_school', 'degree', 'first_result',
@@ -37,6 +41,9 @@ def export_model_as_csv(modeladmin, request, queryset):
             field_value = field_object.value_from_object(obj)
             csv_line_values.append(field_value)
         writer.writerow(csv_line_values)
+
+    # 导出 csv 时，记录日志
+    logger.info("%s exported %s candidate records" % (request.user.username, len(queryset)))
 
     return response
 
