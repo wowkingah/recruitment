@@ -110,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # LANGUAGE_CODE = 'en-us'
 LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
@@ -151,8 +151,8 @@ LDAP_AUTH_USER_LOOKUP_FIELDS = ("username",)
 LDAP_AUTH_CLEAN_USER_DATA = "django_python3_ldap.utils.clean_user_data"
 
 # LDAP 连接用户名与密码
-LDAP_AUTH_CONNECTION_USERNAME = "admin"
-LDAP_AUTH_CONNECTION_PASSWORD = "123456"
+LDAP_AUTH_CONNECTION_USERNAME = None
+LDAP_AUTH_CONNECTION_PASSWORD = None
 
 # 允许使用 LDAP 账号与 Django 账号 2 种方式登录
 AUTHENTICATION_BACKENDS = {"django_python3_ldap.auth.LDAPBackend", "django.contrib.auth.backends.ModelBackend", }
@@ -184,7 +184,7 @@ LOGGING = {
         "file": {
             "class": "logging.FileHandler",
             "formatter": "simple",
-            "filename": os.path.join(BASE_DIR , 'recruitment.admin.log'),
+            "filename": os.path.join(BASE_DIR, '../recruitment.admin.log'),
         },
     },
 

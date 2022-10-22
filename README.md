@@ -19,7 +19,12 @@ $ python manage.py runserver 0.0.0.0:8000
 > password:123456
 
 # 支持 LDAP 账号登录
-[OpenLDAP 安装配置](./openldap.md)
+[OpenLDAP 安装配置](docs/openldap.md)
+
+# 指定环境配置文件
+```bash
+$ python manage.py runserver 0.0.0.0:8000 --settings=settings.local
+```
 
 # MVP
 ## 迭代思维与 MVP 产品规划方法（OOPD）
@@ -35,4 +40,3 @@ $ python manage.py runserver 0.0.0.0:8000
 ![](.README_images/6e3112ec.png)
 ### 完备性原则
 ![](.README_images/ba7fb251.png)
-
