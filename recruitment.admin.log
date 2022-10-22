@@ -1,3 +1,0 @@
-2022-09-26 11:48:35,384 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
-2022-09-26 11:49:03,074 django_python3_ldap.ldap 224 INFO     LDAP connect succeeded
-2022-09-26 11:49:03,079 django_python3_ldap.ldap 88 INFO     LDAP user lookup succeeded

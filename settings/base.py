@@ -184,7 +184,7 @@ LOGGING = {
         "file": {
             "class": "logging.FileHandler",
             "formatter": "simple",
-            "filename": os.path.join(BASE_DIR, '../recruitment.admin.log'),
+            "filename": os.path.join(BASE_DIR, './recruitment.admin.log'),
         },
     },
 

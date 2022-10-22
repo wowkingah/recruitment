@@ -15,6 +15,7 @@ $ pip3 install -r requirements.txt
 $ python manage.py runserver 0.0.0.0:8000
 ```
 
+# 登录信息
 > user:admin  
 > password:123456
 
@@ -36,7 +37,9 @@ $ python manage.py runserver 0.0.0.0:8000 --settings=settings.local
 ## 企业级数据库设计十个原则
 ### 基础原则
 ![](.README_images/9212abf8.png)
+
 ### 扩展性原则
 ![](.README_images/6e3112ec.png)
+
 ### 完备性原则
 ![](.README_images/ba7fb251.png)

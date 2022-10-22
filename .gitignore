@@ -4,3 +4,6 @@ venv
 # Developer
 .idea
 .DS_Store
+
+# Logs
+recruitment.admin.log

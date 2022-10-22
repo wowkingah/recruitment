@@ -15,8 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+# Django 中多语言环境一般用 "_" 来作为函数名
+from django.utils.translation import gettext as _
 
 urlpatterns = [
     path("", include("jobs.urls")),
     path('admin/', admin.site.urls),
 ]
+
+admin.site.site_header = _('酱油科技-招聘管理系统')
