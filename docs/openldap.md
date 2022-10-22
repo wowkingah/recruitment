@@ -20,18 +20,18 @@ $ docker run -p 80:80 -p 443:443 --name phpldapadmin-service \
 > username:cn=admin,dc=wowking,dc=cc  
 > password:123456  
 
-![](../.openldap_images/dfc64c79.png)
+![](.openldap_images/dfc64c79.png)
 
 ## 创建用户
 ### 创建GROUP
-![](../.openldap_images/91ab095c.png)
-![](../.openldap_images/82648c7c.png)
-![](../.openldap_images/bdfe8e59.png)
+![](.openldap_images/91ab095c.png)
+![](.openldap_images/82648c7c.png)
+![](.openldap_images/bdfe8e59.png)
 
 ### 创建用户
-![](../.openldap_images/6f0786f2.png)
-![](../.openldap_images/d048abf7.png)
-![](../.openldap_images/ee354b46.png)
+![](.openldap_images/6f0786f2.png)
+![](.openldap_images/d048abf7.png)
+![](.openldap_images/ee354b46.png)
 
 ## 配置
 ### 安装与注册
@@ -87,18 +87,18 @@ AUTHENTICATION_BACKENDS = {"django_python3_ldap.auth.LDAPBackend", "django.contr
 ### 使用 LDAP 账号登录
 因 LDAP 用户属性为非员工，登录会失败。
 首次登录时 Django 会将 LDAP 账号同步到 Django 后台。
-![](../.openldap_images/ef7557c3.png)
+![](.openldap_images/ef7557c3.png)
 
 ### 使用 Django 账号登录
 可以看到 LDAP 账号已同步到 Django 后台。
-![](../.openldap_images/dfd579ac.png)
+![](.openldap_images/dfd579ac.png)
 
 修改 LDAP 账号 `lixiaolong` 属性。 
-![](../.openldap_images/f596687a.png)
+![](.openldap_images/f596687a.png)
 
 ### 使用 LDAP 账号登录
 重新登录
-![](../.openldap_images/e54e5481.png)
+![](.openldap_images/e54e5481.png)
 
 ## 批量导入 LDAP 账号
 ```bash

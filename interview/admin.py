@@ -4,6 +4,7 @@ from django.db.models import Q
 
 from interview.models import Candidate
 from interview import candidate_fieldset as cf
+from interview import dingtalk
 
 import logging
 import csv
@@ -17,8 +18,7 @@ logger = logging.getLogger(__name__)
 # 定义导出字段列表
 exportable_fields = ('username', 'city', 'phone', 'bachelor_school', 'master_school', 'degree', 'first_result',
                      'first_interviewer_user', 'second_result', 'second_interviewer_user', 'hr_result', 'hr_score',
-                     'hr_remark',
-                     'hr_interviewer_user')
+                     'hr_remark', 'hr_interviewer_user')
 
 
 def export_model_as_csv(modeladmin, request, queryset):
@@ -53,7 +53,20 @@ def export_model_as_csv(modeladmin, request, queryset):
 
 # 自定义导出菜单显示名
 export_model_as_csv.short_description = u'导出为CSV文件'
-export_model_as_csv.allowed_permissions = ("export", )
+export_model_as_csv.allowed_permissions = ("export",)
+
+
+# 通知一面面试官面试
+def notify_interviewer(modeladmin, request, queryset):
+    candidates = ""
+    interviewers = ""
+    for obj in queryset:
+        candidates = obj.username + ";" + candidates
+        interviewers = obj.first_interviewer_user.username + ";" + interviewers
+    dingtalk.send("候选人 %s 进入面试环节，亲爱的面试官，请准备好面试：%s" % (candidates, interviewers))
+
+
+notify_interviewer.short_description = u'通知一面面试官'
 
 
 # 候选人管理类
@@ -61,7 +74,7 @@ class CandidateAdmin(admin.ModelAdmin):
     exclude = ('creator', 'created_date', 'modified_date')
 
     # 导出函数注册到 actions
-    actions = [export_model_as_csv, ]
+    actions = [export_model_as_csv, notify_interviewer]
 
     # 当前用户是否有导出权限
     def has_export_permission(self, request):
