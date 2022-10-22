@@ -106,6 +106,12 @@ class Candidate(models.Model):
         verbose_name = u'应聘者'
         verbose_name_plural = u'应聘者'
 
+        # 自定义权限
+        permissions = [
+            ("export", "Can export candidate list"),
+            ("notify", "Notify interviewer for candidate review"),
+        ]
+
     # Python2 优先使用这个方法，把对象转换成字符串；如果没有 __unicode__() 方法，使用 __str__() 方法
     def __unicode__(self):
         return self.username
