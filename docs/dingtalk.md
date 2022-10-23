@@ -1,7 +1,5 @@
-## 发送消息代码
-`interview/dingtalk.py`
-
-## 钉钉群添加机器人
+# 钉钉安装配置
+## 群添加机器人
 - 群设置  
 ![](.dingtalk_images/8d4a706f.png)  
 
@@ -17,6 +15,9 @@
 ## 配置 WEB_HOOK
 `settings/local.py`
 > DINGTALK_WEB_HOOK = "https://oapi.dingtalk.com/robot/send?access_token=xxxx"
+
+## 消息发送代码
+[interview/dingtalk.py](../interview/dingtalk.py)
 
 ## 测试消息发送
 ```bash

@@ -15,6 +15,11 @@ $ pip3 install -r requirements.txt
 $ python manage.py runserver 0.0.0.0:8000
 ```
 
+# 指定环境配置文件
+```bash
+$ python manage.py runserver 0.0.0.0:8000 --settings=settings.local
+```
+
 # 登录信息
 > user:admin  
 > password:123456
@@ -22,10 +27,8 @@ $ python manage.py runserver 0.0.0.0:8000
 # 支持 LDAP 账号登录
 [OpenLDAP 安装配置](docs/openldap.md)
 
-# 指定环境配置文件
-```bash
-$ python manage.py runserver 0.0.0.0:8000 --settings=settings.local
-```
+# 支持钉钉发送通知
+[钉钉安装配置](docs/dingtalk.md)
 
 # MVP
 ## 迭代思维与 MVP 产品规划方法（OOPD）

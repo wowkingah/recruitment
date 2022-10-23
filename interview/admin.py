@@ -2,10 +2,12 @@ from django.contrib import admin
 from django.contrib import messages
 from django.http import HttpResponse
 from django.db.models import Q
+from django.utils.safestring import mark_safe
 
 from interview.models import Candidate
 from interview import candidate_fieldset as cf
 from interview import dingtalk
+from jobs.models import Resume
 
 import logging
 import csv
@@ -85,7 +87,7 @@ class CandidateAdmin(admin.ModelAdmin):
 
     # 显示字段
     list_display = (
-        "username", "city", "bachelor_school", "first_score", "first_result", "first_interviewer_user",
+        "username", "city", "bachelor_school", "get_resume", "first_score", "first_result", "first_interviewer_user",
         "second_result", "second_interviewer_user", "hr_score", "hr_result", "last_editor"
     )
 
@@ -151,6 +153,18 @@ class CandidateAdmin(admin.ModelAdmin):
             # Q 表达式，可用来做 or 或 and 的复杂查询
             Q(first_interviewer_user=request.user) | Q(second_interviewer_user=request.user)
         )
+
+    def get_resume(self, obj):
+        if not obj.phone:
+            return ""
+        resumes = Resume.objects.filter(phone=obj.phone)
+        if resumes and len(resumes) > 0:
+            return mark_safe(u'<a href="/resume/%s" target="_blank">%s</a' % (resumes[0].id, "查看简历"))
+        return ""
+
+    get_resume.short_description = u'查看简历'
+    # 使用 HTML 标签
+    get_resume.allow_tags = True
 
 
 admin.site.register(Candidate, CandidateAdmin)
