@@ -1,19 +1,28 @@
 # Django 为已有系统生成管理后台
-## 模拟生成一个老系统
+## 思路
+1. 创建一个 Django 项目；
+2. 连接老系统/项目数据库；
+3. 将老系统数据库中的数据生成 Django Model；
+4. 清理 Model 文件；
+5. 注册 Admin、修改 Settings；
+6. 运行测试。
+
+# 模拟测试
+## 为老系统创建 Django 项目
 ```bash
 wowking@Wowkingah % django-admin startproject empmanager
 wowking@Wowkingah % cd empmanager
-# 模拟 recruitment 的数据库
+
+# 模拟 recruitment 系统
 wowking@Wowkingah empmanager % cp ../recruitment/db.sqlite3 .
 wowking@Wowkingah empmanager % django-admin startapp candidates
-wowking@Wowkingah empmanager % ls
-candidates db.sqlite3 empmanager manage.py
+
 # 运行
 wowking@Wowkingah empmanager % python manage.py runserver 0.0.0.0:8000
 ```
 
 ## 测试访问
-> 原 recruitment 的 db.sqlite3 中存在 Django 后台相关数据，所以不用 makemigrations 同步数据库结构。  
+> 原 recruitment 系统中已存在 Django 后台相关数据，故不用 makemigrations 同步数据库结构。  
 
 ![](.manage_old_projects_images/56febe49.png)
 
@@ -22,7 +31,7 @@ wowking@Wowkingah empmanager % python manage.py runserver 0.0.0.0:8000
 # 将老系统数据库中的数据生成 Model
 wowking@Wowkingah empmanager % python manage.py inspectdb > candidates/models.py
 
-# Model 处理
+# Model 处理，老系统 recruitment 中存在 Django 相关数据，删除掉 
 wowking@Wowkingah empmanager % cat candidates/models.py
 from django.db import models
 from django.contrib.auth.models import User
@@ -143,7 +152,7 @@ admin.site.register(JobsJob)
 admin.site.register(Candidate)
 ```
 
-## 更新 settings
+## 更新 Settings
 ```bash
 wowking@Wowkingah empmanager % cat empmanager/settings.py
 INSTALLED_APPS = [
