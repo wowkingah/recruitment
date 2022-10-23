@@ -36,6 +36,7 @@ SIMPLE_BACKEND_REDIRECT_URL = '/accounts/login/'
 INSTALLED_APPS = [
     # 主题需加在 admin 之前
     'grappelli',
+    'bootstrap4',
     'registration',
     'django.contrib.admin',
     'django.contrib.auth',

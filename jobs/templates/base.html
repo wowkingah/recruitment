@@ -1,4 +1,13 @@
 <!-- base.html -->
+{# load the tag library #}
+{% load bootstrap4 %}
+
+{# load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+
+{# Display django.crontrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
 
 <h1 style="margin:auto; width:50%;">酱油科技开放职位</h1>
 <p></p>

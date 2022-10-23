@@ -1,6 +1,22 @@
+{# load the tag library #}
+{% load bootstrap4 %}
+
+{# load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+
+{# Display django.crontrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+
 <h2>提交简历</h2>
 
-<form method="post">{% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="提交">
+<form method="post" method="post" class="form" style="width:600px;margin-left:5px">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+
+    {% buttons %}
+    <button stype="submit" class="btn btn-primary">
+        提交
+    </button>
+    {% endbuttons %}
 </form>
