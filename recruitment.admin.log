@@ -1,0 +1,845 @@
+2022-10-22 19:09:28,993 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:15:51,335 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:15:51,599 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:16:45,200 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:16:45,455 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:17:04,764 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:17:05,043 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:17:10,233 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:17:10,516 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:17:12,713 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:17:12,967 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:17:22,163 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:17:22,429 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:18:07,945 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:18:08,241 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:18:17,435 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:18:17,761 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:18:31,995 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:18:32,265 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:18:58,396 interview.admin 115 INFO     interviewer is in user's group for lisi
+2022-10-22 19:18:58,399 interview.admin 115 INFO     interviewer is in user's group for lisi
+2022-10-22 19:20:01,247 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:20:01,538 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:20:04,698 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:20:04,951 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:20:15,186 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:20:15,437 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:20:29,671 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:20:29,923 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:20:38,142 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:20:38,411 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:20:44,611 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:20:44,940 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:21:07,264 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:21:07,579 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:21:25,881 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:21:26,210 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:21:32,392 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:21:32,645 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:21:37,841 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:21:38,086 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:21:49,323 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:21:49,620 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:22:03,877 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:22:04,141 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:22:20,395 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:22:20,665 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:22:52,043 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:22:52,396 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:23:15,720 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:23:15,973 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:23:29,214 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:23:29,470 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:23:55,818 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:23:56,153 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:25:21,108 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:25:21,421 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:25:34,656 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:25:34,926 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:26:16,376 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:26:16,728 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:26:30,972 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:26:31,273 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:26:39,485 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:26:39,761 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:27:04,109 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:27:04,463 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:29:18,684 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:29:19,036 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:29:57,501 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:29:57,789 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:29:59,956 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:30:00,272 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:30:05,467 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:30:05,738 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:30:18,970 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:30:19,212 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:30:37,503 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:30:37,769 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:30:41,932 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:30:42,182 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:30:45,342 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:30:45,643 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:31:08,972 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 19:31:09,256 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:32:47,320 interview.admin 112 INFO     interviewer is in user's group for lisi
+2022-10-22 19:32:47,323 interview.admin 112 INFO     interviewer is in user's group for lisi
+2022-10-22 19:36:39,586 django.request 225 WARNING  Not Found: /favicon.ico
+2022-10-22 19:36:45,509 django_python3_ldap.ldap 224 INFO     LDAP connect succeeded
+2022-10-22 19:36:45,513 django_python3_ldap.ldap 88 INFO     LDAP user lookup succeeded
+2022-10-22 19:46:51,425 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:46:56,609 django.request 225 WARNING  Not Found: /
+2022-10-22 19:47:27,015 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:47:27,273 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:47:36,510 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:47:36,766 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:47:44,957 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:47:45,208 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:48:58,082 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:48:58,335 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:49:02,485 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:49:02,794 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:49:06,934 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:49:07,221 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:49:11,390 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:49:11,664 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:49:24,895 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:49:25,186 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:49:49,529 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:49:49,783 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:50:24,253 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:50:24,532 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:52:13,804 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:52:14,063 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:52:17,199 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:52:17,449 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:53:14,127 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:53:14,385 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:53:31,665 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:53:31,915 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:53:34,029 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:53:34,275 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:53:40,437 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:53:40,683 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:53:43,816 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:53:44,087 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 19:54:06,433 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 19:54:06,690 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:02:24,369 interview.admin 47 INFO     zhangsan exported 5 candidate records
+2022-10-22 20:21:34,945 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:25:28,499 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:25:28,772 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:25:35,995 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:25:36,250 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:25:40,425 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:25:40,718 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:26:10,163 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:26:10,496 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:26:19,741 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:26:20,000 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:26:45,328 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:26:45,632 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:26:50,820 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:26:51,064 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:27:08,338 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:27:08,589 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:27:12,794 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:27:13,053 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:27:41,394 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:27:41,648 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:27:52,873 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:27:53,137 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:28:18,588 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:28:18,883 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:28:22,081 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:28:22,364 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:28:58,751 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:28:59,035 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:29:22,349 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:29:22,600 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:29:28,801 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:29:29,085 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:29:53,465 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:29:53,748 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:34:02,539 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:34:02,864 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:35:07,670 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:35:07,939 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:36:04,488 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:36:04,490 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:36:09,140 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:36:09,142 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:36:13,577 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:36:13,578 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:37:10,917 django.request 225 ERROR    Internal Server Error: /admin/interview/candidate/3/change/
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 622, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 236, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1673, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1549, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1582, in _changeform_view
+    fieldsets = self.get_fieldsets(request, obj)
+  File "/Users/wowking/Documents/git/recruitment/interview/admin.py", line 135, in get_fieldsets
+    return self.default_fieldsets
+AttributeError: 'CandidateAdmin' object has no attribute 'default_fieldsets'
+2022-10-22 20:37:14,397 django.request 225 ERROR    Internal Server Error: /admin/interview/candidate/3/change/
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 622, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 236, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1673, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1549, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1582, in _changeform_view
+    fieldsets = self.get_fieldsets(request, obj)
+  File "/Users/wowking/Documents/git/recruitment/interview/admin.py", line 135, in get_fieldsets
+    return self.default_fieldsets
+AttributeError: 'CandidateAdmin' object has no attribute 'default_fieldsets'
+2022-10-22 20:38:05,414 django.request 225 ERROR    Internal Server Error: /admin/interview/candidate/3/change/
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 622, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 236, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1673, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1549, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1582, in _changeform_view
+    fieldsets = self.get_fieldsets(request, obj)
+  File "/Users/wowking/Documents/git/recruitment/interview/admin.py", line 135, in get_fieldsets
+    return self.default_fieldsets
+AttributeError: 'CandidateAdmin' object has no attribute 'default_fieldsets'
+2022-10-22 20:38:27,605 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:38:27,912 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:38:48,468 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:38:48,793 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:38:59,623 django.request 225 ERROR    Internal Server Error: /admin/interview/candidate/4/change/
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 622, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 236, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1673, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1549, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1582, in _changeform_view
+    fieldsets = self.get_fieldsets(request, obj)
+  File "/Users/wowking/Documents/git/recruitment/interview/admin.py", line 135, in get_fieldsets
+    return self.default_fieldsets
+AttributeError: 'CandidateAdmin' object has no attribute 'default_fieldsets'
+2022-10-22 20:39:37,617 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:39:37,904 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:39:52,364 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:39:52,366 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:39:55,834 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:39:55,838 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:40:02,204 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:40:02,206 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:40:05,073 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:40:05,074 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:40:08,809 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:40:08,810 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:40:13,979 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:40:13,982 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:41:35,620 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:41:35,622 interview.admin 149 INFO     interviewer is in user's group for lisi
+2022-10-22 20:44:00,163 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:44:00,457 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:44:36,993 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:44:37,283 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:44:56,572 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:44:56,826 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:45:37,393 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:45:37,669 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:46:36,441 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:46:36,753 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:47:05,186 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:47:05,465 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:50:48,951 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:50:49,247 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:51:41,926 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:51:42,201 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:51:51,451 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:51:51,746 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:51:59,955 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:52:00,240 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:52:13,489 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:52:13,766 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:52:19,956 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:52:20,210 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:52:22,387 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:52:22,651 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:52:26,830 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:52:27,091 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:52:39,350 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:52:39,643 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:52:41,795 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:52:42,059 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:52:46,245 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:52:46,503 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:53:01,769 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:53:02,055 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:53:04,211 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:53:04,482 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:53:27,810 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:53:28,087 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:55:10,969 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:55:11,248 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:58:35,561 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:58:35,866 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:58:51,171 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:58:51,444 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:59:03,712 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:59:04,041 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 20:59:52,680 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 20:59:52,958 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 21:00:19,962 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:00:19,964 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:01:19,469 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:01:19,471 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:01:25,890 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:01:25,892 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:01:29,576 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:01:29,577 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:01:40,306 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:01:40,308 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:01:45,687 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:01:45,711 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:02:13,761 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:02:13,763 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:02:17,092 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:02:17,093 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:02:21,262 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:02:21,264 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:02:25,181 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:02:25,183 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:02:27,666 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:02:27,668 interview.admin 93 INFO     interviewer is in user's group for lisi
+2022-10-22 21:05:23,899 interview.admin 49 INFO     zhangsan exported 5 candidate records
+2022-10-22 21:05:30,286 django.request 225 WARNING  Not Found: /favicon.ico
+2022-10-22 21:08:42,427 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/models.py changed, reloading.
+2022-10-22 21:08:42,748 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 21:08:56,028 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/models.py changed, reloading.
+2022-10-22 21:08:56,341 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 21:09:29,786 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/models.py changed, reloading.
+2022-10-22 21:09:30,064 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 21:09:46,351 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/models.py changed, reloading.
+2022-10-22 21:09:46,619 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 21:11:36,924 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 21:11:37,235 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 21:12:34,956 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 21:12:35,212 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 21:13:49,128 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-22 21:13:49,463 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 21:18:40,461 interview.admin 49 INFO     zhangsan exported 5 candidate records
+2022-10-22 21:18:49,000 interview.admin 49 INFO     zhangsan exported 5 candidate records
+2022-10-22 21:55:43,197 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:16:34,628 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:19:09,706 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/local.py changed, reloading.
+2022-10-22 22:19:10,023 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:28:03,876 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:28:27,524 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/local.py changed, reloading.
+2022-10-22 22:28:27,845 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:36:37,428 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-22 22:36:37,741 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:38:05,213 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:38:05,521 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:38:28,908 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:38:29,269 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:39:11,920 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:39:12,241 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:39:17,367 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:39:17,679 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:39:36,996 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:39:37,308 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:40:08,943 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:40:09,243 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:40:18,534 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:40:18,837 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:40:23,990 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:40:24,311 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:40:59,866 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:41:00,163 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:41:10,478 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:41:10,776 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:41:17,928 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:41:18,221 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:41:43,618 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:41:43,920 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:41:53,079 django.request 225 WARNING  Not Found: /
+2022-10-22 22:43:18,553 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:43:18,870 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:43:28,031 django.request 225 WARNING  Not Found: /accounts
+2022-10-22 22:43:44,090 django.request 225 WARNING  Not Found: /accounts
+2022-10-22 22:44:52,508 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:44:52,879 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:44:53,345 django.request 225 WARNING  Not Found: /accounts
+2022-10-22 22:44:55,816 django.request 225 WARNING  Not Found: /accounts
+2022-10-22 22:44:57,873 django.request 225 WARNING  Not Found: /accounts
+2022-10-22 22:45:03,192 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:45:03,498 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:45:24,608 django.request 225 WARNING  Not Found: /accounts
+2022-10-22 22:45:54,306 django.request 225 WARNING  Not Found: /accounts/registe
+2022-10-22 22:47:13,281 django.request 225 WARNING  Not Found: /accounts/profile/
+2022-10-22 22:47:19,710 django.request 225 WARNING  Not Found: /accounts/profile/
+2022-10-22 22:47:23,883 django.request 225 WARNING  Not Found: /accounts/profile/
+2022-10-22 22:47:31,022 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:47:31,339 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:47:32,366 django.request 225 WARNING  Not Found: /accounts/profile/
+2022-10-22 22:49:39,502 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/urls.py changed, reloading.
+2022-10-22 22:49:39,842 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:49:57,251 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/urls.py changed, reloading.
+2022-10-22 22:49:57,569 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:50:30,280 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:50:30,611 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:50:40,269 django.request 225 WARNING  Not Found: /accounts/profile/
+2022-10-22 22:52:24,689 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:52:25,023 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:52:26,545 django.request 225 WARNING  Not Found: /accounts/profile/
+2022-10-22 22:52:31,255 django.request 225 WARNING  Not Found: /accounts/profile/
+2022-10-22 22:53:31,254 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:53:31,591 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:53:39,890 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/recruitment/urls.py changed, reloading.
+2022-10-22 22:53:40,232 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:54:12,452 django.request 225 WARNING  Not Found: /accounts/profile/
+2022-10-22 22:54:14,463 django.request 225 WARNING  Not Found: /accounts/profile/
+2022-10-22 22:54:34,647 django.request 225 WARNING  Not Found: /favicon.ico
+2022-10-22 22:57:47,370 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-22 22:57:47,753 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 22:57:54,000 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-22 22:59:51,947 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 23:00:26,638 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/urls.py changed, reloading.
+2022-10-22 23:00:26,989 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 23:00:56,249 django.request 225 WARNING  Not Found: /account/login
+2022-10-22 23:01:31,304 django_python3_ldap.ldap 227 WARNING  LDAP bind failed: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None
+2022-10-22 23:14:24,886 django.request 225 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/jobs/views.py", line 21, in joblist
+    return HttpResponse(template.render(context))
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in _render
+    return self.nodelist.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 130, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 127, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 106, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/engine.py", line 145, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 199, in compile_nodelist
+    return parser.parse()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 508, in parse
+    raise self.error(token, e)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 506, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 222, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 574, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 7: 'block'. Looking for one of: endblock.
+2022-10-22 23:14:26,006 django.request 225 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/jobs/views.py", line 21, in joblist
+    return HttpResponse(template.render(context))
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in _render
+    return self.nodelist.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 130, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 127, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 106, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/engine.py", line 145, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 199, in compile_nodelist
+    return parser.parse()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 508, in parse
+    raise self.error(token, e)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 506, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 222, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 574, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 7: 'block'. Looking for one of: endblock.
+2022-10-22 23:15:09,120 django_python3_ldap.ldap 224 INFO     LDAP connect succeeded
+2022-10-22 23:15:09,125 django_python3_ldap.ldap 88 INFO     LDAP user lookup succeeded
+2022-10-22 23:15:20,193 django_python3_ldap.ldap 224 INFO     LDAP connect succeeded
+2022-10-22 23:15:20,197 django_python3_ldap.ldap 88 INFO     LDAP user lookup succeeded
+2022-10-22 23:16:35,024 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-22 23:16:35,360 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 23:16:46,685 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-22 23:16:47,040 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 23:16:55,348 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-22 23:16:55,671 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 23:17:12,075 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-22 23:17:12,414 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-22 23:17:24,346 django_python3_ldap.ldap 224 INFO     LDAP connect succeeded
+2022-10-22 23:17:24,350 django_python3_ldap.ldap 88 INFO     LDAP user lookup succeeded
+2022-10-22 23:26:38,925 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/models.py changed, reloading.
+2022-10-22 23:26:39,344 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 10:52:56,180 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/models.py changed, reloading.
+2022-10-23 10:52:56,505 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 11:19:53,473 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/models.py changed, reloading.
+2022-10-23 11:19:53,839 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 11:23:37,505 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/models.py changed, reloading.
+2022-10-23 11:23:37,828 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 11:31:03,465 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/admin.py changed, reloading.
+2022-10-23 11:31:03,849 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 11:31:38,603 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/admin.py changed, reloading.
+2022-10-23 11:31:38,879 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 11:35:34,559 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 11:36:18,101 django.request 225 WARNING  Not Found: /favicon.ico
+2022-10-23 11:39:54,080 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/models.py changed, reloading.
+2022-10-23 11:39:54,410 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 11:40:26,040 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/models.py changed, reloading.
+2022-10-23 11:40:26,348 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 11:57:02,925 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 11:57:03,282 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 11:57:46,976 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 11:57:47,417 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 11:58:22,978 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 11:58:23,338 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 11:58:43,679 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 11:58:44,058 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 11:59:17,623 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 11:59:17,979 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 11:59:36,292 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 11:59:36,633 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 12:00:35,526 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 12:00:35,851 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 12:00:54,215 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 12:00:54,764 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 12:03:19,956 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 12:03:20,282 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 12:05:56,811 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/urls.py changed, reloading.
+2022-10-23 12:05:57,123 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 12:06:55,153 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/urls.py changed, reloading.
+2022-10-23 12:06:55,540 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 12:07:07,897 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/urls.py changed, reloading.
+2022-10-23 12:07:08,204 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 12:07:36,245 django.request 225 WARNING  Not Found: /job/1/joblist
+2022-10-23 12:09:01,401 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/urls.py changed, reloading.
+2022-10-23 12:09:01,734 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 12:10:07,223 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 12:10:26,652 django_python3_ldap.ldap 227 WARNING  LDAP bind failed: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None
+2022-10-23 12:10:30,343 django_python3_ldap.ldap 227 WARNING  LDAP bind failed: LDAPInvalidCredentialsResult - 49 - invalidCredentials - None - None - bindResponse - None
+2022-10-23 12:10:54,711 django.request 225 WARNING  Not Found: /job/1/joblist
+2022-10-23 12:20:03,474 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 12:20:03,837 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 12:22:46,560 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 12:22:46,911 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 12:27:55,931 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 12:27:56,261 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 12:28:09,452 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 13:33:20,349 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-23 13:33:20,570 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 13:40:25,381 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 13:52:32,323 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-23 13:52:32,624 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 13:52:47,484 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 13:53:45,887 django.request 225 ERROR    Internal Server Error: /resume/add/
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 500, in parse
+    compile_func = self.tags[command]
+KeyError: 'button'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/engine.py", line 163, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/engine.py", line 145, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 199, in compile_nodelist
+    return parser.parse()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 502, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 561, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 17: 'button'. Did you forget to register or load this tag?
+2022-10-23 13:53:47,969 django.request 225 ERROR    Internal Server Error: /resume/add/
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 500, in parse
+    compile_func = self.tags[command]
+KeyError: 'button'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/engine.py", line 163, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/engine.py", line 145, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 199, in compile_nodelist
+    return parser.parse()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 502, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 561, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 17: 'button'. Did you forget to register or load this tag?
+2022-10-23 13:54:49,405 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 13:56:13,943 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-23 13:56:14,218 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 13:56:25,617 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 13:56:36,231 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 13:56:45,261 django.request 225 ERROR    Internal Server Error: /resume/add/
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 974, in find_library
+    return parser.libraries[name]
+KeyError: 'bootstrap5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/engine.py", line 163, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/engine.py", line 145, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 199, in compile_nodelist
+    return parser.parse()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 508, in parse
+    raise self.error(token, e)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 506, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 1031, in load
+    lib = find_library(parser, name)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 976, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'bootstrap5' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+bootstrap4
+cache
+grp_tags
+i18n
+l10n
+log
+static
+tz
+2022-10-23 13:58:12,953 django.request 225 WARNING  Not Found: /job/1/joblist
+2022-10-23 13:58:35,897 django.request 225 WARNING  Not Found: /job/1/joblist
+2022-10-23 14:48:53,259 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/admin.py changed, reloading.
+2022-10-23 14:48:53,639 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 14:52:36,349 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/admin.py changed, reloading.
+2022-10-23 14:52:36,682 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 14:53:31,722 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/admin.py changed, reloading.
+2022-10-23 14:53:32,034 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 14:54:05,737 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/admin.py changed, reloading.
+2022-10-23 14:54:06,136 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 14:55:32,718 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/admin.py changed, reloading.
+2022-10-23 14:55:33,085 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 14:56:12,902 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/admin.py changed, reloading.
+2022-10-23 14:56:13,256 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 14:56:49,001 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/admin.py changed, reloading.
+2022-10-23 14:56:49,329 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 14:57:15,899 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/admin.py changed, reloading.
+2022-10-23 14:57:16,261 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 14:58:03,184 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/admin.py changed, reloading.
+2022-10-23 14:58:03,494 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 14:58:13,719 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/admin.py changed, reloading.
+2022-10-23 14:58:13,993 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 14:58:34,299 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/admin.py changed, reloading.
+2022-10-23 14:58:34,609 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:01:37,108 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-23 15:01:37,513 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:02:54,904 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-23 15:02:55,261 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:03:36,126 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-23 15:03:36,469 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:20:23,562 django.request 225 WARNING  Not Found: /favicon.ico
+2022-10-23 15:25:30,885 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 15:25:31,235 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:26:31,375 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/views.py changed, reloading.
+2022-10-23 15:26:31,739 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:33:56,906 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/urls.py changed, reloading.
+2022-10-23 15:33:57,232 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:34:41,079 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/urls.py changed, reloading.
+2022-10-23 15:34:41,413 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:35:33,821 django.request 225 WARNING  Not Found: /resume/2/
+2022-10-23 15:35:42,431 django.request 225 WARNING  Not Found: /resume/2/
+2022-10-23 15:39:25,295 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-23 15:39:25,700 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:40:05,501 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-23 15:40:05,839 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:40:42,571 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-23 15:40:42,893 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:41:57,256 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-23 15:41:57,627 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:42:29,306 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-23 15:42:29,653 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:43:31,843 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-10-23 15:43:32,181 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-23 15:43:43,359 django.request 225 WARNING  Not Found: /resume/2/
+2022-10-23 15:49:35,278 interview.admin 116 INFO     interviewer is in user's group for lisi
+2022-10-23 15:49:35,280 interview.admin 116 INFO     interviewer is in user's group for lisi
+2022-10-23 21:02:14,292 django.request 225 WARNING  Not Found: /favicon.ico
+2022-10-23 21:14:01,504 django.request 225 WARNING  Not Found: /favicon.ico
+2022-10-23 21:14:03,001 django.request 225 WARNING  Not Found: /favicon.ico
+2022-10-23 21:14:19,489 django.request 225 WARNING  Not Found: /favicon.ico
+2022-10-23 21:14:26,553 django.request 225 WARNING  Not Found: /favicon.ico
+2022-10-23 21:15:27,533 django.request 225 WARNING  Not Found: /favicon.ico
+2022-10-24 22:59:47,984 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-24 23:02:26,844 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-24 23:02:38,637 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-24 23:03:15,371 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-24 23:03:15,700 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-24 23:04:01,612 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-24 23:04:01,962 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-24 23:04:37,705 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-24 23:04:56,429 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-24 23:05:33,919 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-24 23:06:51,393 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-24 23:06:51,740 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader

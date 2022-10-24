@@ -6,4 +6,4 @@ venv
 .DS_Store
 
 # Logs
-recruitment.admin.log
+.log
