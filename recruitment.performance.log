@@ -1,0 +1,27 @@
+2022-10-24 23:05:53,704 interview.performance 14 INFO     0.12293386459350586 /admin/interview/candidate/ {}
+2022-10-24 23:05:53,733 interview.performance 14 INFO     0.005017280578613281 /admin/jsi18n/ {}
+2022-10-24 23:05:54,939 interview.performance 14 INFO     0.14006590843200684 /admin/interview/candidate/4/change/ {}
+2022-10-24 23:05:54,957 interview.performance 14 INFO     0.008517980575561523 /admin/jsi18n/ {}
+2022-10-24 23:06:18,746 interview.performance 14 INFO     0.015291929244995117 /admin/ {}
+2022-10-24 23:06:19,860 interview.performance 14 INFO     0.029201030731201172 /admin/jobs/job/ {}
+2022-10-24 23:06:19,873 interview.performance 14 INFO     0.004104137420654297 /admin/jsi18n/ {}
+2022-10-24 23:06:55,392 interview.performance 14 INFO     0.035431861877441406 /admin/ {}
+2022-10-24 23:06:57,071 interview.performance 14 INFO     0.03037118911743164 /admin/jobs/resume/ {}
+2022-10-24 23:06:57,089 interview.performance 14 INFO     0.007067203521728516 /admin/jsi18n/ {}
+2022-10-24 23:06:58,358 interview.performance 14 INFO     0.050653934478759766 /admin/jobs/resume/1/change/ {}
+2022-10-24 23:06:58,371 interview.performance 14 INFO     0.004401206970214844 /admin/jsi18n/ {}
+2022-10-24 23:06:59,749 interview.performance 14 INFO     0.02488088607788086 /admin/jobs/resume/ {}
+2022-10-24 23:07:00,757 interview.performance 14 INFO     0.014845848083496094 /admin/ {}
+2022-10-24 23:07:02,523 interview.performance 14 INFO     0.02796196937561035 /admin/jobs/job/ {}
+2022-10-24 23:07:02,534 interview.performance 14 INFO     0.0031538009643554688 /admin/jsi18n/ {}
+2022-10-24 23:07:03,777 interview.performance 14 INFO     0.03217482566833496 /admin/jobs/job/2/change/ {}
+2022-10-24 23:07:03,792 interview.performance 14 INFO     0.006921052932739258 /admin/jsi18n/ {}
+2022-10-24 23:07:05,723 interview.performance 14 INFO     0.02668595314025879 /admin/jobs/job/ {}
+2022-10-24 23:07:06,528 interview.performance 14 INFO     0.014341115951538086 /admin/ {}
+2022-10-24 23:07:10,564 interview.performance 14 INFO     0.005288839340209961 / {}
+2022-10-24 23:07:11,991 interview.performance 14 INFO     0.004431962966918945 /job/1/ {}
+2022-10-24 23:07:13,325 interview.performance 14 INFO     0.08931708335876465 /resume/add/ {'apply_position': 'sa', 'city': '北京'}
+2022-10-24 23:08:13,421 interview.performance 14 INFO     0.004589080810546875 /job/1/ {}
+2022-10-24 23:08:14,897 interview.performance 14 INFO     0.019798994064331055 /resume/add/ {'apply_position': 'sa', 'city': '北京'}
+2022-10-24 23:09:49,728 interview.performance 14 INFO     0.00485992431640625 /job/1/ {}
+2022-10-24 23:10:41,935 interview.performance 14 INFO     0.007591962814331055 /joblist/ {}
