@@ -843,3 +843,228 @@ tz
 2022-10-24 23:05:33,919 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
 2022-10-24 23:06:51,393 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
 2022-10-24 23:06:51,740 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-26 22:30:53,675 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/models.py changed, reloading.
+2022-10-26 22:30:54,093 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-26 22:31:31,942 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/models.py changed, reloading.
+2022-10-26 22:31:32,323 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-26 22:35:51,642 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/models.py changed, reloading.
+2022-10-26 22:35:52,040 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-26 22:36:53,177 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/models.py changed, reloading.
+2022-10-26 22:36:53,559 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-26 22:37:12,017 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/models.py changed, reloading.
+2022-10-26 22:37:12,381 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-26 22:37:19,706 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/models.py changed, reloading.
+2022-10-26 22:37:20,052 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-26 23:36:00,782 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/urls.py changed, reloading.
+2022-10-26 23:36:01,170 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-26 23:36:30,682 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/urls.py changed, reloading.
+2022-10-26 23:36:30,989 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-26 23:37:47,397 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/jobs/urls.py changed, reloading.
+2022-10-26 23:37:47,732 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-26 23:40:35,654 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-26 23:43:22,429 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-26 23:43:30,054 django.request 225 WARNING  Not Found: //
+2022-10-26 23:54:22,166 django.request 225 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 500, in parse
+    compile_func = self.tags[command]
+KeyError: 'get_availabel_languages'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/jobs/views.py", line 25, in joblist
+    return render(request, 'joblist.html', context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in _render
+    return self.nodelist.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 130, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 127, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 106, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/engine.py", line 145, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 199, in compile_nodelist
+    return parser.parse()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 502, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 561, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 41: 'get_availabel_languages'. Did you forget to register or load this tag?
+2022-10-26 23:54:54,330 django.request 225 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/jobs/views.py", line 25, in joblist
+    return render(request, 'joblist.html', context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in _render
+    return self.nodelist.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 130, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 127, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 106, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/engine.py", line 145, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 199, in compile_nodelist
+    return parser.parse()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 508, in parse
+    raise self.error(token, e)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 506, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/templatetags/i18n.py", line 379, in do_translate
+    message_string = parser.compile_filter(bits[1])
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 593, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 692, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '"Switch' from '"Switch'
+2022-10-26 23:54:55,442 django.request 225 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/jobs/views.py", line 25, in joblist
+    return render(request, 'joblist.html', context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in _render
+    return self.nodelist.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 130, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 127, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 106, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/engine.py", line 145, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 199, in compile_nodelist
+    return parser.parse()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 508, in parse
+    raise self.error(token, e)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 506, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/templatetags/i18n.py", line 379, in do_translate
+    message_string = parser.compile_filter(bits[1])
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 593, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 692, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '"Switch' from '"Switch'
+2022-10-26 23:55:15,585 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-26 23:55:17,131 django.request 225 ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/jobs/views.py", line 25, in joblist
+    return render(request, 'joblist.html', context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 176, in render
+    return self._render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in _render
+    return self.nodelist.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 977, in render
+    return SafeString(''.join([
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 938, in render_annotated
+    return self.render(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 130, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 127, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 106, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/engine.py", line 145, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 199, in compile_nodelist
+    return parser.parse()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 508, in parse
+    raise self.error(token, e)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 506, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/templatetags/i18n.py", line 379, in do_translate
+    message_string = parser.compile_filter(bits[1])
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 593, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/template/base.py", line 692, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '"Switch' from '"Switch'
+2022-10-26 23:59:33,914 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-26 23:59:34,309 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-27 00:00:42,605 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-27 00:00:42,947 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-27 00:00:54,314 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-10-27 00:00:54,657 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader

@@ -30,6 +30,9 @@ $ python manage.py runserver 0.0.0.0:8000 --settings=settings.local
 # 支持钉钉发送通知
 [钉钉安装配置](docs/dingtalk.md)
 
+# 支持多语言
+[多语言配置](docs/multi_language.md)
+
 # MVP
 ## 迭代思维与 MVP 产品规划方法（OOPD）
 ![](.README_images/767b46e4.png)

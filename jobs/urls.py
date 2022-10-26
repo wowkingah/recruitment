@@ -1,4 +1,5 @@
 from django.urls import path
+from django.conf.urls import include
 
 from jobs import views
 
@@ -15,5 +16,8 @@ urlpatterns = [
 
     # 首页自动跳转到职位列表
     path("", views.joblist, name="name"),
+
+    # 多语言URL 路径
+    path('i18n/', include('django.conf.urls.i18n')),
 
 ]
