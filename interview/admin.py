@@ -49,7 +49,8 @@ def export_model_as_csv(modeladmin, request, queryset):
         writer.writerow(csv_line_values)
 
     # 导出 csv 时，记录日志
-    logger.info("%s exported %s candidate records" % (request.user.username, len(queryset)))
+    # logger.info("%s exported %s candidate records" % (request.user.username, len(queryset)))
+    logger.error("%s has exported %s candidate records" % (request.user.username, len(queryset)))
 
     return response
 

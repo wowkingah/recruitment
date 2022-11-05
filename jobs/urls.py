@@ -4,6 +4,10 @@ from django.conf.urls import include
 from jobs import views
 
 
+def trigger_error(request):
+    division_by_zero = 1 / 0
+
+
 urlpatterns = [
     # Django 4.x+ 不支持 url
     path("joblist/", views.joblist, name="joblist"),
@@ -20,4 +24,6 @@ urlpatterns = [
     # 多语言URL 路径
     path('i18n/', include('django.conf.urls.i18n')),
 
+    # sentry-debug
+    path('sentry-debug/', trigger_error),
 ]

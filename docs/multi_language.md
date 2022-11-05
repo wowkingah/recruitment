@@ -1,4 +1,8 @@
-# 多语言支持
+# Django 多语言支持
+## Django 识别多语言
+1. Django 按顺序从 `URL` -> `Cookie` -> `浏览器Header` 中找是否有语言标记；
+2. 如果都没有，则使用系统默认设置的 `LANGUAGE_CODE`。
+
 ## `models` 支持  
 - 引入 `gettext_lazy` 包；
 - 调用方法完成实体翻译；

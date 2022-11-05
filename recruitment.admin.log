@@ -1068,3 +1068,20 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 2022-10-27 00:00:42,947 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
 2022-10-27 00:00:54,314 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
 2022-10-27 00:00:54,657 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-10-27 00:47:21,729 django.request 225 WARNING  Not Found: /favicon.ico
+2022-11-03 01:22:16,722 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-03 01:22:42,004 django.request 225 WARNING  Not Found: /favicon.ico
+2022-11-03 01:23:13,063 django.request 225 ERROR    Internal Server Error: /sentry-debug/
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/sentry_sdk/integrations/django/views.py", line 68, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/jobs/urls.py", line 8, in trigger_error
+    division_by_zero = 1 / 0
+ZeroDivisionError: division by zero
+2022-11-05 09:18:34,334 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
+2022-11-05 09:18:34,734 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 09:19:18,772 interview.admin 53 ERROR    admin has exported 2 candidate records
