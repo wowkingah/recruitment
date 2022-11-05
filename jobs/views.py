@@ -9,6 +9,7 @@ from django.views.generic.detail import DetailView
 from jobs.models import Job, Resume
 from jobs.models import Cities, JobTypes
 
+import html
 
 # Create your views here.
 
@@ -33,6 +34,18 @@ def detail(request, job_id):
         raise Http404("Job does not exits.")
 
     return render(request, 'job.html', {'job': job})
+
+
+# 直接返回 HTML 内容的视图（这段代码返回的页面有 XSS 漏洞，能够被攻击者利用）
+def detail_resume(request, resume_id):
+    try:
+        resume = Resume.objects.get(pk=resume_id)
+        content = "name: %s <br> introduction: %s <br>" % (resume.username, resume.candidate_introduction)
+        # return HttpResponse(content)
+        # 使用 html.escape 将 content 内容转义（建议使用 render 替代）
+        return HttpResponse(html.escape(content))
+    except Resume.DoesNotExist:
+        raise Http404("resume does not exist")
 
 
 # 类只能继承一个父类，Mixin 可实现一个类能继承多个类
@@ -65,3 +78,4 @@ class ResumeDetailView(DetailView):
     """ 简历详情页 """
     model = Resume
     template_name = 'resume_detail.html'
+

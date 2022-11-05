@@ -27,3 +27,9 @@ urlpatterns = [
     # sentry-debug
     path('sentry-debug/', trigger_error),
 ]
+
+from django.conf import settings
+
+if settings.DEBUG:
+    # 有 XSS 漏洞的视图页面
+    urlpatterns += [path('detail_resume/<int:resume_id>/', views.detail_resume, name='detail_resume')]
