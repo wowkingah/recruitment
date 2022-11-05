@@ -115,3 +115,14 @@ sentry_sdk.init(
 ![](.sentry_images/c4178dd2.png)
 
 ![](.sentry_images/3596c64c.png)
+
+## 捕获异常上报对 Sentry
+### 创建 Sentry 类
+[interview/performance.py](../interview/performance.py)
+
+### 原函数式替换为类
+[settings/base.py](../settings/base.py)
+
+### 访问不存在的 URL
+![](.sentry_images/91f13a29.png)
+![](.sentry_images/7870fb7e.png)

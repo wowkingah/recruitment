@@ -52,7 +52,8 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     # 从下至下依次执行
-    'interview.performance.performance_logger_middleware',
+    'interview.performance.PerformanceAndExceptionLoggerMiddleware',
+    # 'interview.performance.performance_logger_middleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     # 多语言中间件支持，加在 sessions 与 common 之间

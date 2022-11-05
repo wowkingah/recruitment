@@ -1085,3 +1085,50 @@ ZeroDivisionError: division by zero
 2022-11-05 09:18:34,334 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/admin.py changed, reloading.
 2022-11-05 09:18:34,734 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
 2022-11-05 09:19:18,772 interview.admin 53 ERROR    admin has exported 2 candidate records
+2022-11-05 10:10:18,895 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 10:10:19,349 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 10:14:52,351 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 10:14:52,763 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 10:29:36,479 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 10:29:36,975 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 10:33:16,781 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 10:33:17,240 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 10:33:26,651 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 10:33:27,129 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 10:33:57,991 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 10:33:58,365 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 10:40:24,505 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 10:40:25,102 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:16:29,788 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 21:16:30,271 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:16:47,876 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 21:16:48,314 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:17:18,150 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 21:17:18,544 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:17:28,998 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 21:17:29,482 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:17:41,975 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 21:17:42,372 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:18:04,045 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 21:18:04,437 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:18:11,846 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 21:18:12,241 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:18:18,608 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 21:18:19,058 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:18:30,554 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 21:18:30,960 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:19:25,278 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 21:19:25,677 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:19:50,428 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 21:19:50,871 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:23:10,291 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/base.py changed, reloading.
+2022-11-05 21:23:10,694 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:29:29,347 django.request 225 ERROR    Internal Server Error: /resume/9/
+2022-11-05 21:31:58,001 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/interview/performance.py changed, reloading.
+2022-11-05 21:31:58,500 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:32:02,393 django.request 225 ERROR    Internal Server Error: /resume/9/
+2022-11-05 21:33:11,404 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/local.py changed, reloading.
+2022-11-05 21:33:11,821 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader
+2022-11-05 21:33:13,471 django.request 225 ERROR    Internal Server Error: /resume/9/
+2022-11-05 21:33:44,859 django.utils.autoreload 257 INFO     /Users/wowking/Documents/git/recruitment/settings/local.py changed, reloading.
+2022-11-05 21:33:45,308 django.utils.autoreload 643 INFO     Watching for file changes with StatReloader

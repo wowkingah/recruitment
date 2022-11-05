@@ -130,3 +130,126 @@
 2022-11-05 09:24:08,347 interview.performance 14 INFO     0.028966188430786133 /admin/auth/group/ {}
 2022-11-05 09:24:08,376 interview.performance 14 INFO     0.007564067840576172 /admin/jsi18n/ {}
 2022-11-05 09:24:08,967 interview.performance 14 INFO     0.016398906707763672 /admin/ {}
+2022-11-05 21:27:34,272 interview.performance 36 INFO     duration:0.04959511756896973 url:/admin/ parameters:{}
+2022-11-05 21:27:36,145 interview.performance 36 INFO     duration:0.10022711753845215 url:/admin/interview/candidate/ parameters:{}
+2022-11-05 21:27:36,201 interview.performance 36 INFO     duration:0.01418924331665039 url:/admin/jsi18n/ parameters:{}
+2022-11-05 21:27:37,608 interview.performance 36 INFO     duration:0.14531564712524414 url:/admin/interview/candidate/4/change/ parameters:{}
+2022-11-05 21:27:37,648 interview.performance 36 INFO     duration:0.004602909088134766 url:/admin/jsi18n/ parameters:{}
+2022-11-05 21:27:38,359 interview.performance 36 INFO     duration:0.09711098670959473 url:/admin/interview/candidate/ parameters:{}
+2022-11-05 21:27:39,575 interview.performance 36 INFO     duration:0.0005788803100585938 url:/resume/1 parameters:{}
+2022-11-05 21:27:39,588 interview.performance 36 INFO     duration:0.00681304931640625 url:/resume/1/ parameters:{}
+2022-11-05 21:27:42,815 interview.performance 36 INFO     duration:0.016180992126464844 url:/admin/ parameters:{}
+2022-11-05 21:27:44,663 interview.performance 36 INFO     duration:0.029079914093017578 url:/admin/jobs/job/ parameters:{}
+2022-11-05 21:27:44,690 interview.performance 36 INFO     duration:0.006440877914428711 url:/admin/jsi18n/ parameters:{}
+2022-11-05 21:27:45,833 interview.performance 36 INFO     duration:0.032775163650512695 url:/admin/jobs/job/2/change/ parameters:{}
+2022-11-05 21:27:45,862 interview.performance 36 INFO     duration:0.008217096328735352 url:/admin/jsi18n/ parameters:{}
+2022-11-05 21:27:47,144 interview.performance 36 INFO     duration:0.04278206825256348 url:/admin/jobs/job/ parameters:{}
+2022-11-05 21:27:48,185 interview.performance 36 INFO     duration:0.016416072845458984 url:/admin/ parameters:{}
+2022-11-05 21:27:49,267 interview.performance 36 INFO     duration:0.029690980911254883 url:/admin/jobs/job/ parameters:{}
+2022-11-05 21:27:49,288 interview.performance 36 INFO     duration:0.006695985794067383 url:/admin/jsi18n/ parameters:{}
+2022-11-05 21:27:49,902 interview.performance 36 INFO     duration:0.015105962753295898 url:/admin/ parameters:{}
+2022-11-05 21:27:50,713 interview.performance 36 INFO     duration:0.02520608901977539 url:/admin/jobs/resume/ parameters:{}
+2022-11-05 21:27:50,740 interview.performance 36 INFO     duration:0.007036924362182617 url:/admin/jsi18n/ parameters:{}
+2022-11-05 21:27:52,098 interview.performance 36 INFO     duration:0.05913209915161133 url:/admin/jobs/resume/1/change/ parameters:{}
+2022-11-05 21:27:52,122 interview.performance 36 INFO     duration:0.007178068161010742 url:/admin/jsi18n/ parameters:{}
+2022-11-05 21:27:53,999 interview.performance 36 INFO     duration:0.02663588523864746 url:/admin/jobs/resume/ parameters:{}
+2022-11-05 21:27:54,606 interview.performance 36 INFO     duration:0.01561427116394043 url:/admin/ parameters:{}
+2022-11-05 21:27:57,174 interview.performance 36 INFO     duration:0.015479087829589844 url:/admin/jobs/ parameters:{}
+2022-11-05 21:27:58,294 interview.performance 36 INFO     duration:0.03442502021789551 url:/admin/jobs/job/ parameters:{}
+2022-11-05 21:27:58,330 interview.performance 36 INFO     duration:0.005792856216430664 url:/admin/jsi18n/ parameters:{}
+2022-11-05 21:27:58,939 interview.performance 36 INFO     duration:0.012944936752319336 url:/admin/jobs/ parameters:{}
+2022-11-05 21:27:59,474 interview.performance 36 INFO     duration:0.01482701301574707 url:/admin/ parameters:{}
+2022-11-05 21:28:08,494 interview.performance 36 INFO     duration:0.028056859970092773 url:/admin/jobs/job/ parameters:{}
+2022-11-05 21:28:08,522 interview.performance 36 INFO     duration:0.005331993103027344 url:/admin/jsi18n/ parameters:{}
+2022-11-05 21:28:09,914 interview.performance 36 INFO     duration:0.030859947204589844 url:/admin/jobs/job/2/change/ parameters:{}
+2022-11-05 21:28:09,936 interview.performance 36 INFO     duration:0.007182121276855469 url:/admin/jsi18n/ parameters:{}
+2022-11-05 21:28:13,115 interview.performance 36 INFO     duration:0.029497146606445312 url:/admin/jobs/job/ parameters:{}
+2022-11-05 21:28:13,654 interview.performance 36 INFO     duration:0.018021106719970703 url:/admin/ parameters:{}
+2022-11-05 21:28:42,015 interview.performance 36 INFO     duration:0.026529788970947266 url:/admin/jobs/resume/ parameters:{}
+2022-11-05 21:28:42,047 interview.performance 36 INFO     duration:0.0063130855560302734 url:/admin/jsi18n/ parameters:{}
+2022-11-05 21:28:47,711 interview.performance 36 INFO     duration:0.050369977951049805 url:/admin/jobs/resume/1/change/ parameters:{}
+2022-11-05 21:28:47,734 interview.performance 36 INFO     duration:0.007696866989135742 url:/admin/jsi18n/ parameters:{}
+2022-11-05 21:29:07,447 interview.performance 36 INFO     duration:0.0012629032135009766 url:/admin/ parameters:{}
+2022-11-05 21:29:07,539 interview.performance 36 INFO     duration:0.06433296203613281 url:/admin/login/ parameters:{'next': '/admin/'}
+2022-11-05 21:29:07,753 interview.performance 36 INFO     duration:0.04515480995178223 url:/admin/login/ parameters:{'next': '/admin/'}
+2022-11-05 21:29:15,374 interview.performance 36 INFO     duration:0.004105806350708008 url:/resume/1/ parameters:{}
+2022-11-05 21:29:16,986 interview.performance 36 INFO     duration:0.00684809684753418 url:/admin/login/ parameters:{'next': '/admin/'}
+2022-11-05 21:29:20,725 interview.performance 36 INFO     duration:0.005441904067993164 url:/ parameters:{}
+2022-11-05 21:29:22,407 interview.performance 36 INFO     duration:0.005785942077636719 url:/job/1/ parameters:{}
+2022-11-05 21:29:29,117 interview.performance 36 INFO     duration:0.0006060600280761719 url:/resume/9 parameters:{}
+2022-11-05 21:29:29,125 interview.performance 52 WARNING  url:http://127.0.0.1:8000/resume/9/ ** msg:Http404('No 简历 found matching the query') ````Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/detail.py", line 52, in get_object
+    obj = queryset.get()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.DoesNotExist(
+jobs.models.Resume.DoesNotExist: Resume matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/sentry_sdk/integrations/django/views.py", line 68, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 101, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/detail.py", line 106, in get
+    self.object = self.get_object()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/detail.py", line 54, in get_object
+    raise Http404(_("No %(verbose_name)s found matching the query") %
+django.http.response.Http404: No 简历 found matching the query
+````
+2022-11-05 21:29:29,346 interview.performance 36 INFO     duration:0.2260129451751709 url:/resume/9/ parameters:{}
+2022-11-05 21:32:02,179 interview.performance 52 WARNING  url:http://127.0.0.1:8000/resume/9/ ** msg:Http404('No 简历 found matching the query') ````Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/detail.py", line 52, in get_object
+    obj = queryset.get()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.DoesNotExist(
+jobs.models.Resume.DoesNotExist: Resume matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/sentry_sdk/integrations/django/views.py", line 68, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 101, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/detail.py", line 106, in get
+    self.object = self.get_object()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/detail.py", line 54, in get_object
+    raise Http404(_("No %(verbose_name)s found matching the query") %
+django.http.response.Http404: No 简历 found matching the query
+````
+2022-11-05 21:32:02,392 interview.performance 36 INFO     duration:0.21870994567871094 url:/resume/9/ parameters:{}
+2022-11-05 21:33:13,227 interview.performance 52 WARNING  url:http://127.0.0.1:8000/resume/9/ ** msg:Http404('No 简历 found matching the query') ````Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/detail.py", line 52, in get_object
+    obj = queryset.get()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.DoesNotExist(
+jobs.models.Resume.DoesNotExist: Resume matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/sentry_sdk/integrations/django/views.py", line 68, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 101, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/detail.py", line 106, in get
+    self.object = self.get_object()
+  File "/Users/wowking/Documents/git/recruitment/venv/lib/python3.9/site-packages/django/views/generic/detail.py", line 54, in get_object
+    raise Http404(_("No %(verbose_name)s found matching the query") %
+django.http.response.Http404: No 简历 found matching the query
+````
+2022-11-05 21:33:13,470 interview.performance 36 INFO     duration:0.24863100051879883 url:/resume/9/ parameters:{}
+2022-11-05 21:34:07,455 interview.performance 36 INFO     duration:0.008293867111206055 url:/resume/1/ parameters:{}
