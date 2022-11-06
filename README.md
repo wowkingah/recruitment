@@ -42,6 +42,9 @@ $ python manage.py runserver 0.0.0.0:8000 --settings=settings.local
 # 使用 Redis 缓存
 [Django Redis](docs/redis.md)
 
+# 集成 Celery 分布式任务队列
+[Celery 分布式任务队列](docs/celery.md)
+
 # MVP
 ## 迭代思维与 MVP 产品规划方法（OOPD）
 ![](.README_images/767b46e4.png)
