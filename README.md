@@ -36,6 +36,9 @@ $ python manage.py runserver 0.0.0.0:8000 --settings=settings.local
 # 集成 Sentry 实时事件日志和聚合平台
 [Sentry 日志平台](docs/sentry.md)
 
+# REST Framework 开放 API
+[Django REST Framework](docs/rest_framework.md)
+
 # MVP
 ## 迭代思维与 MVP 产品规划方法（OOPD）
 ![](.README_images/767b46e4.png)
