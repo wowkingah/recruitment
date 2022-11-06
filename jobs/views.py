@@ -5,11 +5,16 @@ from django.template import loader
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic.edit import CreateView
 from django.views.generic.detail import DetailView
+from django.contrib.auth.decorators import permission_required, login_required
+from django.views.decorators.csrf import csrf_exempt
+from django.contrib.auth.models import User, Group
+from django.contrib import messages
 
 from jobs.models import Job, Resume
 from jobs.models import Cities, JobTypes
 
 import html
+
 
 # Create your views here.
 
@@ -48,6 +53,27 @@ def detail_resume(request, resume_id):
         raise Http404("resume does not exist")
 
 
+# 仅允许有创建用户权限的用户访问，@csrf_exempt 该标签不处理 CSRF 攻击
+# @csrf_exempt
+@permission_required('auth.user_add')
+def create_hr_user(request):
+    if request.method == "GET":
+        return render(request, 'create_hr.html', {})
+    if request.method == "POST":
+        username = request.POST.get("username")
+        password = request.POST.get("password")
+
+        hr_group = Group.objects.get(name='hr')
+        user = User(is_superuser=False, username=username, is_active=True, is_staff=True)
+        user.set_password(password)
+        user.save()
+        user.groups.add(hr_group)
+
+        messages.add_message(request, messages.INFO, 'user created %s' % username)
+        return render(request, 'create_hr.html')
+    return render(request, 'create_hr.html')
+
+
 # 类只能继承一个父类，Mixin 可实现一个类能继承多个类
 class ResumeCreateView(LoginRequiredMixin, CreateView):
     """ 简历职位页面 """
@@ -78,4 +104,3 @@ class ResumeDetailView(DetailView):
     """ 简历详情页 """
     model = Resume
     template_name = 'resume_detail.html'
-

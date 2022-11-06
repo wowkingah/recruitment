@@ -26,6 +26,9 @@ urlpatterns = [
 
     # sentry-debug
     path('sentry-debug/', trigger_error),
+
+    # 管理员创建 HR 账号
+    path('create_hr_user/', views.create_hr_user, name='create_hr_user'),
 ]
 
 from django.conf import settings
