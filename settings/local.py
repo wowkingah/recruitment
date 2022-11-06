@@ -39,3 +39,20 @@ sentry_sdk.init(
     # django.contrib.auth) you may enable sending PII data.
     send_default_pii=True
 )
+
+# Redis
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:16379/1",
+        "TIMEOUT": 300,
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            # "PASSWORD": "123456",
+            # Redis 连接超时时间，单位 s
+            "SOCKET_CONNECT_TIMEOUT": 5,
+            # 每次读取数据超时时间，单位 s
+            "SOCKET_TIMEOUT": 5,
+        }
+    }
+}

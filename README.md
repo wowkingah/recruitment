@@ -39,6 +39,9 @@ $ python manage.py runserver 0.0.0.0:8000 --settings=settings.local
 # REST Framework 开放 API
 [Django REST Framework](docs/rest_framework.md)
 
+# 使用 Redis 缓存
+[Django Redis](docs/redis.md)
+
 # MVP
 ## 迭代思维与 MVP 产品规划方法（OOPD）
 ![](.README_images/767b46e4.png)

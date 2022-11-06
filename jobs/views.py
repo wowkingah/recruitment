@@ -13,10 +13,13 @@ from django.contrib import messages
 from jobs.models import Job, Resume
 from jobs.models import Cities, JobTypes
 
+import logging
+
 import html
 
-
 # Create your views here.
+logger = logging.getLogger(__name__)
+
 
 def joblist(request):
     job_list = Job.objects.order_by('job_type')
@@ -35,6 +38,7 @@ def detail(request, job_id):
     try:
         job = Job.objects.get(pk=job_id)
         job.city_name = Cities[job.job_city][1]
+        logger.info('job info fetched from database jobid:%s' % job_id)
     except Job.DoesNotExist:
         raise Http404("Job does not exits.")
 
