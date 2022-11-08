@@ -11,7 +11,7 @@ LDAP_AUTH_CONNECTION_PASSWORD = "123456"
 SECRET_KEY = 'django-insecure-f(_1+j7ic5n30-30e60=_e80x6g(=*+qg4nqc$t!smm^$*-6#o'
 
 # DINGTALK
-DINGTALK_WEB_HOOK = "https://oapi.dingtalk.com/robot/send?access_token=xxx"
+DINGTALK_WEB_HOOK = "https://oapi.dingtalk.com/robot/send?access_token=c94997b22ba6c109ff4608b061f835cea4eec641b4ec7f206cc4d193c4225c4f"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -56,3 +56,14 @@ CACHES = {
         }
     }
 }
+
+# Celery application definition
+CELERY_BROKER_URL = 'redis://127.0.0.1:16379/0'
+CELERY_RESULT_BACKEND = 'redis://127.0.0.1:16379/1'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'Asia/Shanghai'
+CELERY_MAX_TASKS_PER_CHILD = 10
+CELERY_LOG_FILE = os.path.join(BASE_DIR, "logs", "celery_work.log")
+CELERYBEAT_LOG_FILE = os.path.join(BASE_DIR, "logs", "celery_beat.log")

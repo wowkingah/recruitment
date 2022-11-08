@@ -112,3 +112,102 @@ tasks
 
 Worker
 ![](.celery_images/58a27118.png)
+
+
+# Django 集成 Celery
+[recruitment/celery.py](../recruitment/celery.py)
+[recruitment/__init__.py](../recruitment/__init__.py)
+
+## 配置 Settings
+```shell
+$ cat settings/local.py
+# Celery application definition
+CELERY_BROKER_URL = 'redis://127.0.0.1:16379/0'
+CELERY_RESULT_BACKEND = 'redis://127.0.0.1:16379/1'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'Asia/Shanghai'
+CELERY_MAX_TASKS_PER_CHILD = 10
+CELERY_LOG_FILE = os.path.join(BASE_DIR, "logs", "celery_work.log")
+CELERYBEAT_LOG_FILE = os.path.join(BASE_DIR, "logs", "celery_beat.log")
+```
+
+## 创建面试通知异步任务
+[interview/tasks.py](../interview/tasks.py)
+[interview/admin.py](../interview/admin.py)
+
+## 启动 Celery 组件
+### 启动 Worker
+```shell
+# 在 recruitment 项目根目录启动
+$ DJANGO_SETTINGS_MODULE=settings.local celery -A recruitment worker -l info
+ -------------- celery@ v5.2.7 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- macOS-13.0-x86_64-i386-64bit 2022-11-08 21:19:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         recruitment:0x10e37a4f0
+- ** ---------- .> transport:   redis://127.0.0.1:16379/0
+- ** ---------- .> results:     redis://127.0.0.1:16379/1
+- *** --- * --- .> concurrency: 12 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . interview.tasks.send_dingtalk_message
+  . recruitment.celery.debug_task
+
+[2022-11-08 21:19:12,691: INFO/MainProcess] Connected to redis://127.0.0.1:16379/0
+[2022-11-08 21:19:12,697: INFO/MainProcess] mingle: searching for neighbors
+[2022-11-08 21:19:13,714: INFO/MainProcess] mingle: all alone
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-11-08 21:19:13,737: INFO/MainProcess] celery@ ready.
+
+
+
+[2022-11-08 21:19:16,870: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-11-08 21:20:26,077: INFO/MainProcess] Task interview.tasks.send_dingtalk_message[1a4f9aa4-2060-441b-b49b-585026f6ca71] received
+```
+
+### 启动 Flower
+```shell
+# 在 recruitment 项目根目录启动
+$ DJANGO_SETTINGS_MODULE=settings.local celery -A recruitment flower
+2022-11-08 21:30:11,237 flower.command 162 INFO     Visit me at http://localhost:5555
+2022-11-08 21:30:11,242 flower.command 170 INFO     Broker: redis://127.0.0.1:16379/0
+2022-11-08 21:30:11,246 flower.command 171 INFO     Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'interview.tasks.send_dingtalk_message',
+ 'recruitment.celery.debug_task']
+2022-11-08 21:30:11,247 flower.command 177 WARNING  Running without authentication
+2022-11-08 21:30:11,254 kombu.mixins 225 INFO     Connected to redis://127.0.0.1:16379/0
+```
+
+### 访问 Flower
+`http://localhost:5555`
+![](.celery_images/a0b20d2b.png)
+
+## 通知面试
+admin -> 应聘者
+![](.celery_images/1dd1a658.png)
+
+### 钉钉通知
+![](.celery_images/5a311da3.png)
+
+### flower
+![](.celery_images/7adc38ad.png)
+![](.celery_images/93014e5c.png)
