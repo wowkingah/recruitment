@@ -104,18 +104,18 @@ task result: 8
 可看到 Processed 与 Succeeded
 ![](.celery_images/5d610636.png)
 
-tasks
+tasks  
 ![](.celery_images/034bfda0.png)
 
-详细信息
+详细信息  
 ![](.celery_images/3b9f33fa.png)
 
-Worker
+Worker  
 ![](.celery_images/58a27118.png)
 
 
-# Django 集成 Celery
-[recruitment/celery.py](../recruitment/celery.py)
+# Django 集成 Celery：异步任务
+[recruitment/celery.py](../recruitment/celery.py)  
 [recruitment/__init__.py](../recruitment/__init__.py)
 
 ## 配置 Settings
@@ -134,7 +134,7 @@ CELERYBEAT_LOG_FILE = os.path.join(BASE_DIR, "logs", "celery_beat.log")
 ```
 
 ## 创建面试通知异步任务
-[interview/tasks.py](../interview/tasks.py)
+[interview/tasks.py](../interview/tasks.py)  
 [interview/admin.py](../interview/admin.py)
 
 ## 启动 Celery 组件
@@ -211,3 +211,72 @@ admin -> 应聘者
 ### flower
 ![](.celery_images/7adc38ad.png)
 ![](.celery_images/93014e5c.png)
+
+
+# Django 集成 Celery：定时任务
+![](.celery_images/bd158347.png)
+
+## 安装 django-celery-beat
+```shell
+$ pip install django-celery-beat
+
+# beat 安装到 INSTALL
+$ cat settings/base.py
+INSTALLED_APPS = [
+...
+    'django_celery_beat',
+]
+
+# 迁移数据库
+$ python manage.py makemigrations
+$ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, django_celery_beat, interview, jobs, registration, sessions
+Running migrations:
+  Applying django_celery_beat.0001_initial... OK
+  Applying django_celery_beat.0002_auto_20161118_0346... OK
+  Applying django_celery_beat.0003_auto_20161209_0049... OK
+  Applying django_celery_beat.0004_auto_20170221_0000... OK
+  Applying django_celery_beat.0005_add_solarschedule_events_choices... OK
+  Applying django_celery_beat.0006_auto_20180322_0932... OK
+  Applying django_celery_beat.0007_auto_20180521_0826... OK
+  Applying django_celery_beat.0008_auto_20180914_1922... OK
+  Applying django_celery_beat.0006_auto_20180210_1226... OK
+  Applying django_celery_beat.0006_periodictask_priority... OK
+  Applying django_celery_beat.0009_periodictask_headers... OK
+  Applying django_celery_beat.0010_auto_20190429_0326... OK
+  Applying django_celery_beat.0011_auto_20190508_0153... OK
+  Applying django_celery_beat.0012_periodictask_expire_seconds... OK
+  Applying django_celery_beat.0013_auto_20200609_0727... OK
+  Applying django_celery_beat.0014_remove_clockedschedule_enabled... OK
+  Applying django_celery_beat.0015_edit_solarschedule_events_choices... OK
+  Applying django_celery_beat.0016_alter_crontabschedule_timezone... OK
+```
+
+## 启动 django-celery-beat
+```shell
+$ DJANGO_SETTINGS_MODULE=settings.local celery -A recruitment beat --scheduler django_celery_beat.schedulers:DatabaseScheduler
+
+celery beat v5.2.7 (dawn-chorus) is starting.
+__    -    ... __   -        _
+LocalTime -> 2022-11-08 21:50:21
+Configuration ->
+    . broker -> redis://127.0.0.1:16379/0
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> django_celery_beat.schedulers.DatabaseScheduler
+
+    . logfile -> [stderr]@%WARNING
+    . maxinterval -> 5.00 seconds (5s)
+```
+
+## 查看后台
+![](.celery_images/825bf6aa.png)
+
+## 创建定时任务
+### 系统启动后执行任务
+recruitment/celery.py
+
+## 查看 Flower
+![](.celery_images/a522a269.png)
+
+![](.celery_images/cfc29985.png)

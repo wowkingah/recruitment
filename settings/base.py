@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'jobs',
     'interview',
     'rest_framework',
+    'django_celery_beat',
 ]
 
 MIDDLEWARE = [
@@ -211,13 +212,13 @@ LOGGING = {
         "file": {
             "class": "logging.FileHandler",
             "formatter": "simple",
-            "filename": os.path.join(BASE_DIR, './recruitment.admin.log'),
+            "filename": os.path.join(BASE_DIR, 'logs/recruitment.admin.log'),
         },
         "performance": {
             # "level": "INFO",
             "class": "logging.FileHandler",
             "formatter": "simple",
-            "filename": os.path.join(BASE_DIR, "recruitment.performance.log"),
+            "filename": os.path.join(BASE_DIR, "logs/recruitment.performance.log"),
         },
     },
 

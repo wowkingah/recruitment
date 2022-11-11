@@ -11,7 +11,7 @@ LDAP_AUTH_CONNECTION_PASSWORD = "123456"
 SECRET_KEY = 'django-insecure-f(_1+j7ic5n30-30e60=_e80x6g(=*+qg4nqc$t!smm^$*-6#o'
 
 # DINGTALK
-DINGTALK_WEB_HOOK = "https://oapi.dingtalk.com/robot/send?access_token=c94997b22ba6c109ff4608b061f835cea4eec641b4ec7f206cc4d193c4225c4f"
+DINGTALK_WEB_HOOK = "https://oapi.dingtalk.com/robot/send?access_token=xxx"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
