@@ -10,7 +10,8 @@
 
 <h2>提交简历</h2>
 
-<form method="post" method="post" class="form" style="width:600px;margin-left:5px">
+{# enctype 指定数据传输的编码格式 #}
+<form method="post" class="form" enctype="multipart/form-data" style="width:600px;margin-left:5px">
     {% csrf_token %}
     {% bootstrap_form form %}
 

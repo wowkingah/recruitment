@@ -18,9 +18,11 @@ from django.urls import path, include
 # Django 中多语言环境一般用 "_" 来作为函数名
 from django.utils.translation import gettext as _
 from django.contrib.auth.models import User
+from django.conf.urls.static import static
 
 from rest_framework import routers, serializers, viewsets
 
+import settings.base
 from jobs.models import Job
 
 
@@ -66,5 +68,8 @@ urlpatterns = [
     path('api/', include(router.urls)),
     path('api-auth/', include('rest_framework.urls')),
 ]
+
+# document_root 设置到 MEDIA_URL 下，并加到 urlpatterns
+urlpatterns += static(settings.base.MEDIA_URL, document_root=settings.base.MEDIA_URL)
 
 admin.site.site_header = _('酱油科技-招聘管理系统')

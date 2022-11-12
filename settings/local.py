@@ -67,3 +67,11 @@ CELERY_TIMEZONE = 'Asia/Shanghai'
 CELERY_MAX_TASKS_PER_CHILD = 10
 CELERY_LOG_FILE = os.path.join(BASE_DIR, "logs", "celery_work.log")
 CELERYBEAT_LOG_FILE = os.path.join(BASE_DIR, "logs", "celery_beat.log")
+
+# OSS
+# STATIC_URL = 'http://xxx/static/'
+# DEFAULT_FILE_STORAGE = 'django_oss_storage.backends.OssMediaStorage'
+# OSS_ACCESS_KEY_ID = 'LTAI4GFtQd78UtDhfZUtUAs4'
+# OSS_ACCESS_KEY_SECRET = 'eTS9T3FfZaBFdtfprzjrxVMacw1Cc7'
+# OSS_BUCKET_NAME = 'djangorecruit'
+# OSS_ENDPOINT = 'oss-cn-beijing.aliyuncs.com'

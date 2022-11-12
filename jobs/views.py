@@ -86,7 +86,7 @@ class ResumeCreateView(LoginRequiredMixin, CreateView):
     model = Resume
     fields = ["username", "city", "phone",
               "email", "apply_position", "gender",
-              "bachelor_school", "master_school", "major", "degree",
+              "bachelor_school", "master_school", "major", "degree", "picture", "attachment",
               "candidate_introduction", "work_experience", "project_experience"]
 
     # 从 URL 请求参数带入默认值
