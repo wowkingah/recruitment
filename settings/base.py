@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_python3_ldap',
-    'jobs',
+    # 'jobs',     # 应用不能重复注册，下面一行是手工注册 JobConfig
+    'jobs.apps.JobsConfig',
     'interview',
     'running',
     'rest_framework',
