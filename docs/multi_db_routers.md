@@ -51,14 +51,10 @@ CREATE TABLE `province` (
   PRIMARY KEY (`provinceid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTO running.area VALUES
-(1, 0, '北京市', '', 1),
-(2, 0, '北京城区', '', 1),
-(3, 0, '东城区', '', 1);
-INSERT INTO running.city VALUES
-(1, 0, 1, 1, '北京市', 'Beijing', 1),
-(2, 0, 1, 1, '上海市', 'Shanghai', 1),
-(3, 0, 1, 1, '香港市', 'Shenzhen', 1);
+INSERT INTO `country` VALUES (1,1,'中国','China',NULL,NULL),(2,2,'美国','America',NULL,NULL);
+INSERT INTO `province` VALUES (1,1,2,'北京市','Beijing',NULL),(2,1,2,'上海市','Shanghai',NULL),(3,1,3,'香港','HongKong',NULL);
+INSERT INTO `city` VALUES (1,1,1,1,'北京市','Beijing',1),(2,1,1,2,'上海市','Shanghai',1),(3,1,1,3,'香港','HongKong',1);
+INSERT INTO `area` VALUES (1,0,'北京市','',1),(2,0,'北京城区','',1),(3,0,'东城区','',1);
 ```
 
 ## MacOS 开发环境
@@ -111,3 +107,7 @@ DATABASES = {
 ![](.multi_db_routers_images/b85ce439.png)
 ![](.multi_db_routers_images/b491a6d9.png)
 ![](.multi_db_routers_images/e834ab67.png)
+
+## 功能优化：下拉搜索
+[running/models.py](../running/models.py)  
+[running/admin.py](../running/admin.py)

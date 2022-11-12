@@ -4,6 +4,7 @@ venv
 # Developer
 .idea
 .DS_Store
+__pycache__
 
 # Logs
 logs
