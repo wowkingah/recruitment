@@ -1,4 +1,5 @@
 from django.contrib import admin
+
 from .models import Country, Province, Area, City
 
 
@@ -38,7 +39,3 @@ class CityAdmin(ReadOnlyAdmin):
     # 定义自动完成的字段
     autocomplete_fields = ['provinceid', 'countryid']
     # list_display = ('cityid', 'countryid', 'areaid', 'provinceid', 'chn_name', 'eng_name')
-
-
-admin.site.register(City, CityAdmin)
-admin.site.register(Area)

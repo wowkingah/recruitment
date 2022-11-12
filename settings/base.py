@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_celery_beat',
     'django_oss_storage',
+    'recruitment.apps.UniversalManagerApp',
 ]
 
 MIDDLEWARE = [
