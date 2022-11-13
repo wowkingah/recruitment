@@ -51,6 +51,9 @@ $ python manage.py runserver 0.0.0.0:8000 --settings=settings.local
 # Django 之美：常用插件
 [Django 常用插件](docs/the_beauty_of_django.md)
 
+# 单元测试
+[单元测试](docs/testcase.md)
+
 # MVP
 ## 迭代思维与 MVP 产品规划方法（OOPD）
 ![](.README_images/767b46e4.png)
