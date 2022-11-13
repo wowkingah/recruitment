@@ -75,5 +75,66 @@ $ gunicorn -w 3 -b 127.0.0.1:8000 recruitment.wsgi:application
 ```shell
 $ python -m pip install uvicorn
 $ export DJANGO_SETTINGS_MODULE=settings.local
-$ uvicorn recruitment.asgi:application --workers 3 
+$ uvicorn recruitment.asgi:application --port 8001 --workers 3
 ```
+
+# 生产环境部署
+## 模拟异步应用服务器
+```shell
+$ uvicorn recruitment.asgi:application --host 0.0.0.0 --port 8001 --workers 3
+```
+
+## Nginx 服务环境
+```shell
+$ docker pull nginx
+# 仅演示临时使用
+$ cp -a Documents/git/recruitment/static /tmp/static
+# 将 /tmp/static 静态资源挂载到 Nginx
+$ docker run -itd --name nginx -p 80:80 -v /tmp/static:/usr/share/nginx/html:ro nginx
+```
+
+## 修改 Nginx 配置
+```shell
+# 也可直接将 Docker 内 Nginx 配置文件挂载到本地，这里直接去 Docker 内修改
+$ docker exec -it nginx /bin/bash
+root@f84b6c46fac4:/# apt-get update && apt-get install vim
+root@f84b6c46fac4:/# vim /etc/nginx/conf.d/default.conf
+upstream django-server {
+    # 运行 Django 应用容器的地址
+    server 192.168.2.101:8001;
+}
+
+server {
+    listen       80;
+    listen  [::]:80;
+    server_name  localhost;
+
+    access_log  /var/log/nginx/host.access.log  main;
+
+    location / {
+        proxy_pass http://django-server;
+        proxy_redirect off;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header REMOTE-HOST $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_connect_timeout 300;
+        proxy_send_timeout 300;
+        proxy_read_timeout 600;
+        proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504 http_403 http_404;
+    }
+
+    location /static/ {
+        alias   /usr/share/nginx/html/;
+    }
+}
+
+# 重新加载 Nginx 配置
+root@f84b6c46fac4:/# nginx -t && nginx -s reload
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+2022/11/13 14:55:23 [notice] 789#789: signal process started
+```
+
+## 测试访问
+![](.production_deploy_images/c0a106e2.png)
