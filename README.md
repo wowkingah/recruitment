@@ -54,6 +54,9 @@ $ python manage.py runserver 0.0.0.0:8000 --settings=settings.local
 # 单元测试
 [单元测试](docs/testcase.md)
 
+# 生产环境部署准备
+[生产环境准备](docs/production_deploy.md)
+
 # MVP
 ## 迭代思维与 MVP 产品规划方法（OOPD）
 ![](.README_images/767b46e4.png)
