@@ -17,8 +17,12 @@ DINGTALK_WEB_HOOK = "https://oapi.dingtalk.com/robot/send?access_token=xxx"
 DEBUG = True
 
 INSTALLED_APPS += (
-    # 'debug_toolbar'
+    'debug_toolbar',
 )
+
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
 
 # sentry
 import sentry_sdk

@@ -36,6 +36,7 @@ SIMPLE_BACKEND_REDIRECT_URL = '/accounts/login/'
 
 INSTALLED_APPS = [
     # 主题需加在 admin 之前
+    'simpleui',
     'grappelli',
     'bootstrap4',
     'registration',
@@ -46,7 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_python3_ldap',
-    # 'jobs',     # 应用不能重复注册，下面一行是手工注册 JobConfig
+    # 'jobs',     # 应用不能重复注册，下面一行是手工注册 JobsConfig
     'jobs.apps.JobsConfig',
     'interview',
     'running',
@@ -60,6 +61,8 @@ MIDDLEWARE = [
     # 从下至下依次执行
     'interview.performance.PerformanceAndExceptionLoggerMiddleware',
     # 'interview.performance.performance_logger_middleware',
+    # Debug toolbar
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     # 多语言中间件支持，加在 sessions 与 common 之间
