@@ -1,6 +1,6 @@
 from .base import *
 
-ALLOWED_HOSTS = ["recruit.ihopeit.com", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "192.168.2.101"]
 
 # LDAP
 LDAP_AUTH_URL = "ldap://127.0.0.1:389"

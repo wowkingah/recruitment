@@ -57,6 +57,9 @@ $ python manage.py runserver 0.0.0.0:8000 --settings=settings.local
 # 生产环境部署准备
 [生产环境准备](docs/production_deploy.md)
 
+# 监控告警
+[Prometheus&Grafana](docs/prometheus_grafana.md)
+
 # MVP
 ## 迭代思维与 MVP 产品规划方法（OOPD）
 ![](.README_images/767b46e4.png)

@@ -67,6 +67,9 @@ urlpatterns = [
     # rest api & api auth(login logout)
     path('api/', include(router.urls)),
     path('api-auth/', include('rest_framework.urls')),
+
+    # prometheus
+    path('', include('django_prometheus.urls')),
 ]
 
 # Debug

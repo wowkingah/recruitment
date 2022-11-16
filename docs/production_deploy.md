@@ -5,7 +5,7 @@
   - 避免在 Web 页面上显示敏感的调试跟踪和变更信息。
 - SECRET_KEY
   - 用于 `CRSF` 保护的随机值。
-  - 生成 SECRET KEY `python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
+  - 生成 SECRET KEY `python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'`
 - ALLOWED_HOSTS
   - 生产环境必须设置为允许访问的域名。
 
@@ -87,7 +87,7 @@ $ uvicorn recruitment.asgi:application --host 0.0.0.0 --port 8001 --workers 3
 ## Nginx 服务环境
 ```shell
 $ docker pull nginx
-# 仅演示临时使用
+# 仅演示临时使用，Docker Desktop for MacOS 如果要挂载到其它目录，默认需修改配置 Preferences - Resources - File sharing 
 $ cp -a Documents/git/recruitment/static /tmp/static
 # 将 /tmp/static 静态资源挂载到 Nginx
 $ docker run -itd --name nginx -p 80:80 -v /tmp/static:/usr/share/nginx/html:ro nginx
