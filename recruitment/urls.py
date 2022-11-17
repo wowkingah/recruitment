@@ -24,6 +24,7 @@ from django.conf import settings
 from rest_framework import routers, serializers, viewsets
 
 from jobs.models import Job
+from recruitment import views
 
 
 # Serializers define the API representation.
@@ -61,6 +62,10 @@ router.register(r'jobs', JobViewSet)
 urlpatterns = [
     path("", include("jobs.urls")),
     path("grappelli/", include("grappelli.urls")),
+
+    # 使用 login_with_captcha 作为管理员的登陆页
+    path('admin/login/', views.login_with_captcha, name='adminlogin'),
+
     path('admin/', admin.site.urls),
     path('accounts/', include('registration.backends.simple.urls')),
 
@@ -70,6 +75,11 @@ urlpatterns = [
 
     # prometheus
     path('', include('django_prometheus.urls')),
+
+    # captcha
+    path('captcha/', include('captcha.urls')),
+    path('clogin/', views.login_with_captcha, name="clogin"),
+
 ]
 
 # Debug

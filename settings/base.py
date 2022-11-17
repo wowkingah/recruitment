@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'interview',
     'running',
     'rest_framework',
+    'captcha',
     'django_celery_beat',
     'django_oss_storage',
     'recruitment.apps.UniversalManagerApp',
@@ -85,7 +86,8 @@ ROOT_URLCONF = 'recruitment.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        # 添加登录的模板页路径
+        'DIRS': [os.path.join(BASE_DIR, 'recruitment/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
