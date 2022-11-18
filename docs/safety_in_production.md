@@ -135,3 +135,122 @@ def login_with_captcha(request):
 ### 验证
 ![](.safety_in_production_images/79e89415.png)
 ![](.safety_in_production_images/65bf22f1.png)
+
+
+# 架构安全
+## 密钥存储
+### 存储原则
+- 基础用法
+  - 使用环境变量/独立的配置文件，不放在代码库中。
+- 使用 `Key Server`
+  - 使用开源的 `Key Server`，或阿里云/AWS 的 KMS 服务。
+
+### 从独立的配置文件中读取配置密钥
+- 从独立的配置文件中读取配置密钥；
+- 容器环境，启动容器时作为环境变量传入 - 密钥不落地到容器存储中。
+```python
+with open('/etc/secret_key.txt') as f:
+    SECRET_KEY = f.read().strip()
+```
+
+### Key Server
+- vault
+  - `https://github.com/hashicorp/vault`
+- keywhiz
+  - `https://github.com/square/keywhiz`
+- knox
+  - `https://github.com/pinterest/knox`  
+![](.safety_in_production_images/b3a19007.png)
+
+
+# 数据安全
+## 数据传输安全
+通过 SSL 证书使用 HTTPS 协议，保证数据传输安全。
+
+## 敏感数据加密
+- 对敏感数据，比如用户提交的内容，财务报告，第三方合同等数据进行加密；
+- 使用 `Python` 的 `cryptography` 库。
+  - `pip install cryptography`
+
+```python
+from cryptography.fernet import Fernet
+
+key = Fernet.generate_key()
+f = Fernet(key)
+
+token = f.encrypt(b"welcome to django")
+print(token)
+
+d = f.decrypt(token)
+print(d)
+```
+
+## 日志脱敏
+在日志记录中，过滤掉敏感信息存储，避免敏感信息泄漏。
+- 用户名
+- 密码
+- 手机号
+- 银行卡号
+- 地址
+
+可用 `sensitive_variables` 装饰器阻止错误日志内容包含这些变量的值。
+```python
+from django.views.decorators.debug import sensitive_variables
+
+@sensitive_variables('user', 'pw', 'cc')
+def process_info(user):
+    pw = user.pass_word
+    cc = user.credit_card_number
+    name = user.name
+    ...
+```
+
+
+# 密码安全与业务安全
+## 权限控制
+- 遵循最小原则，长时间没用自动回收；
+- 思路：定时任务检查所有用户，找到长时间没登录的用户，回收相应的权限，或删除账号。
+
+## 密码策略
+- 密码复杂度策略；
+  - 密码验证策略：`AUTH_PASSWORD_VALIDATORS`
+- 定期更新策略。
+  - 密码过期策略：使用 `django-user-accounts` 插件。
+
+### 密码验证策略
+```python
+AUTH_PASSWORD_VALIDATORS = [
+    {
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'OPTIONS': {
+            'min_length': 9,
+        }
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+    },
+]
+```
+
+![](.safety_in_production_images/0fddd896.png)
+
+### 密码过期策略
+```python
+MIDDLEWARE_CLASSES = [
+    # ...
+    "account.middleware.ExpiredPasswordMiddleware",
+]
+
+ACCOUNT_PASSWORD_USE_HISTORY =True
+# Number of secs, this is 5 days.
+ACCOUNT_PASSWORD_EXPIRY = 60*60*24*5
+```
+
+
+
