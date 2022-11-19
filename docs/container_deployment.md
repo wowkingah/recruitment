@@ -70,3 +70,69 @@ Docker Compose，单机编排
   - `docker-compose up -d`
   - `docker-compose down`
 
+
+## 容器编排 - kubernetes
+kubernetes，多主机编排
+
+### K8S 架构
+- 客户端 kubectl 命令
+- 集群节点
+- Pod 运行在节点内
+- Pod 里面运行容器
+![](.container_deployment_images/8a361298.png)
+
+### K8S 核心组件
+![](.container_deployment_images/592aac89.png)
+
+
+## 容器中应用监控
+### 云环境的复杂性
+- 应用被分布在容器上运行，大量容器不断的创建、销毁、升级；
+- 应用的可观测性，可见性变得更加重要。
+
+### 监控方案
+- `kubectl` 命令行
+- 可视化监控方案
+  - GUI 的 Kubernetes Dashboard
+  - 云厂商的控制台
+  - Sentry
+  - ELK
+  - Prometheus
+
+
+## 容器中应用日志
+### 日志收集与查询的不同方案
+- 使用 `kubelet` 收集容器化应用输出到标准输出的日志；
+- 使用 `sidecar` 收集输出到文件中的日志，输出到标准输出 && `tail -f`
+  - ELK/EFK 采集日志；
+  - 阿里云 Logtail 日志采集。
+
+### K8S 下各种日志
+- Pod logs
+- Node logs -> 宿主机的 `/var/log/containers` 目录
+- K8S components logging(api server, scheduler ...)
+- K8S events
+- Audit logs
+
+- K8S 默认会将容器的 `stdout` 和 `stderr` 录入 `node` 的 `/var/log/containers` 目录下；
+- 而 K8S 组件的日志默认会放置在 `/var/log` 目录下。
+
+
+## 容器中持续集成
+### CI/CD 工作流程
+- Build & Package
+- Test
+- Deployment
+  
+![](.container_deployment_images/f91afda4.png)
+
+### CD 阶段不同的部署策略
+- Rolling Upgrade
+  - 滚动更新，多个实例，下线一台升级一台，直至升级完；
+- Blue/Green Deployment
+  - 蓝绿部署，部署到新集群，部署完切流量到新集群；
+- Canary Deployment
+  - 金丝雀部署，过程中新老版本共存，持续做灰度验证。
+  
+![](.container_deployment_images/53f6398a.png)
+
