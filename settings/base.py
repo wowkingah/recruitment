@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'grappelli',
     'bootstrap4',
     'registration',
-    'django_prometheus',
+    # 'django_prometheus',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -60,9 +60,9 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'django_prometheus.middleware.PrometheusBeforeMiddleware',
+    # 'django_prometheus.middleware.PrometheusBeforeMiddleware',
     # 从下至下依次执行
-    'interview.performance.PerformanceAndExceptionLoggerMiddleware',
+    # 'interview.performance.PerformanceAndExceptionLoggerMiddleware',
     # 'interview.performance.performance_logger_middleware',
     # Debug toolbar
     'debug_toolbar.middleware.DebugToolbarMiddleware',
@@ -71,14 +71,14 @@ MIDDLEWARE = [
     # 多语言中间件支持，加在 sessions 与 common 之间
     'django.middleware.locale.LocaleMiddleware',
     # common 前后各加一条 Cache 中间件
-    'django.middleware.cache.UpdateCacheMiddleware',
+    # 'django.middleware.cache.UpdateCacheMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.cache.FetchFromCacheMiddleware',
+    # 'django.middleware.cache.FetchFromCacheMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django_prometheus.middleware.PrometheusAfterMiddleware',
+    # 'django_prometheus.middleware.PrometheusAfterMiddleware',
 ]
 
 ROOT_URLCONF = 'recruitment.urls'
@@ -112,14 +112,14 @@ DATABASES = {
         'ENGINE': 'django_prometheus.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     },
-    'running': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'running',
-        'USER': 'recruitment',
-        'PASSWORD': 'recruitment',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-    }
+    # 'running': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'running',
+    #     'USER': 'recruitment',
+    #     'PASSWORD': 'recruitment',
+    #     'HOST': '127.0.0.1',
+    #     'PORT': '3306',
+    # }
 }
 
 DATABASE_ROUTERS = ['settings.router.DatabaseRouter']

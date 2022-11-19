@@ -63,6 +63,9 @@ $ python manage.py runserver 0.0.0.0:8000 --settings=settings.local
 # 生产环境中的安全
 [生产环境中的安全](docs/safety_in_production.md)
 
+# 容器化部署
+[容器化部署](docs/container_deployment.md)
+
 # MVP
 ## 迭代思维与 MVP 产品规划方法（OOPD）
 ![](.README_images/767b46e4.png)

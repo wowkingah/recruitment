@@ -1,0 +1,14 @@
+FROM python:3.9.15-alpine
+WORKDIR /data/recruitment
+ENV server_params=
+COPY requirements.txt ./
+# apk：alpine 下的软件包管理工具，类似 RHEL 下的 yum
+RUN apk add --update --no-cache gcc g++ openssl mysql-client mysql-dev \
+    && apk add --no-cache gcc g++ openssl mysql-client mysql-dev \
+    && python -m pip install --upgrade pip \
+    && pip install -r requirements.txt \
+    && apk del gcc g++ openssl mysql-client mysql-dev \
+    && rm -rf /var/cache/apk/*
+COPY . .
+EXPOSE 8000
+CMD ["/bin/sh", "/data/recruitment/start_docker_local.sh"]
